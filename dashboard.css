@@ -16788,19 +16788,27 @@ svg {
    ============================================================ */
 @font-face {
   font-family: "lucide";
-  src: url('lucide.eot?t=1772629192554'); /* IE9*/
-  src: url('lucide.eot?t=1772629192554#iefix') format('embedded-opentype') /* IE6-IE8 */,
-  url('lucide.woff2?t=1772629192554') format('woff2'),
-  url('lucide.woff?t=1772629192554') format('woff'),
-  url('lucide.ttf?t=1772629192554') format('truetype'),
-  url('lucide.svg?t=1772629192554') format('svg');
+  src: url("./fonts/lucide/lucide.woff2") format("woff2"),
+    url("./fonts/lucide/lucide.woff") format("woff"),
+    url("./fonts/lucide/lucide.ttf") format("truetype");
 }
 
 [class^="icon-"], [class*=" icon-"] {
-  font-family: 'lucide' !important;font-size: inherit;
-  font-style:normal;
+  font-family: "lucide" !important;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  font-size: inherit;
+  vertical-align: -0.125em;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+[class^="icon-"]::before,
+[class*=" icon-"]::before {
+  display: inline-block;
 }
 
 .icon-a-arrow-down::before { content: "\e585"; }
