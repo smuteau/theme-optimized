@@ -1,11 +1,14 @@
 {
   "name": "@gladysassistant/theme-optimized",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Theme optimized",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "lucide-static": "^0.577.0"
+  }
 }
