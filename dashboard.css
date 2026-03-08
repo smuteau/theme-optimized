@@ -18763,4 +18763,10 @@ svg {
 .icon-zoom-in::before { content: "\e1b6"; }
 .icon-zoom-out::before { content: "\e1b7"; }
 
+/* Signal quality icons — slightly larger for better readability */
+[class^="icon-signal"],
+[class*=" icon-signal"] {
+  font-size: 1.25rem;
+}
+
 /* ============================================================ */
