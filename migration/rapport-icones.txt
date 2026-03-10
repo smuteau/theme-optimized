@@ -1,0 +1,1223 @@
+================================================================
+   TABLE DE MAPPING DES ICÔNES -- Feather -> Lucide
+   @gladysassistant/theme-optimized
+================================================================
+
+Date           : 10/03/2026 23:51:26
+Version Lucide : 0.577.0   (source : lucide-static)
+Icônes Feather : 263
+Icônes Lucide  : 1951
+
+Légende des statuts :
+  [=] IDENTIQUE  -- même nom, seul le préfixe change (.fe- -> .icon-)
+  [>] RENOMMEE   -- nom différent dans Lucide
+  [?] SUPPRIMEE  -- absente de Lucide, fallback vers icon-file-question
+  [+] NOUVELLE   -- ajoutée dans Lucide, sans équivalent Feather
+
+========================================================================
+A. TABLE COMPLÈTE -- TOUTES LES ICÔNES FEATHER (avant -> après)
+========================================================================
+
+Statut        Feather (avant)                 Lucide (après)
+------------------------------------------------------------------------
+[=] IDENTIQUE fe-activity                     icon-activity
+[=] IDENTIQUE fe-airplay                      icon-airplay
+[>] RENOMMEE  fe-alert-circle                 icon-circle-alert
+[>] RENOMMEE  fe-alert-octagon                icon-octagon-alert
+[>] RENOMMEE  fe-alert-triangle               icon-triangle-alert
+[=] IDENTIQUE fe-align-center                 icon-align-center
+[=] IDENTIQUE fe-align-justify                icon-align-justify
+[=] IDENTIQUE fe-align-left                   icon-align-left
+[=] IDENTIQUE fe-align-right                  icon-align-right
+[=] IDENTIQUE fe-anchor                       icon-anchor
+[=] IDENTIQUE fe-aperture                     icon-aperture
+[=] IDENTIQUE fe-arrow-down                   icon-arrow-down
+[>] RENOMMEE  fe-arrow-down-circle            icon-circle-arrow-down
+[=] IDENTIQUE fe-arrow-down-left              icon-arrow-down-left
+[=] IDENTIQUE fe-arrow-down-right             icon-arrow-down-right
+[=] IDENTIQUE fe-arrow-left                   icon-arrow-left
+[>] RENOMMEE  fe-arrow-left-circle            icon-circle-arrow-left
+[=] IDENTIQUE fe-arrow-right                  icon-arrow-right
+[>] RENOMMEE  fe-arrow-right-circle           icon-circle-arrow-right
+[=] IDENTIQUE fe-arrow-up                     icon-arrow-up
+[>] RENOMMEE  fe-arrow-up-circle              icon-circle-arrow-up
+[=] IDENTIQUE fe-arrow-up-left                icon-arrow-up-left
+[=] IDENTIQUE fe-arrow-up-right               icon-arrow-up-right
+[=] IDENTIQUE fe-at-sign                      icon-at-sign
+[=] IDENTIQUE fe-award                        icon-award
+[=] IDENTIQUE fe-bar-chart                    icon-bar-chart
+[=] IDENTIQUE fe-bar-chart-2                  icon-bar-chart-2
+[=] IDENTIQUE fe-battery                      icon-battery
+[=] IDENTIQUE fe-battery-charging             icon-battery-charging
+[=] IDENTIQUE fe-bell                         icon-bell
+[=] IDENTIQUE fe-bell-off                     icon-bell-off
+[=] IDENTIQUE fe-bluetooth                    icon-bluetooth
+[=] IDENTIQUE fe-bold                         icon-bold
+[=] IDENTIQUE fe-book                         icon-book
+[=] IDENTIQUE fe-book-open                    icon-book-open
+[=] IDENTIQUE fe-bookmark                     icon-bookmark
+[=] IDENTIQUE fe-box                          icon-box
+[=] IDENTIQUE fe-briefcase                    icon-briefcase
+[=] IDENTIQUE fe-calendar                     icon-calendar
+[=] IDENTIQUE fe-camera                       icon-camera
+[=] IDENTIQUE fe-camera-off                   icon-camera-off
+[=] IDENTIQUE fe-cast                         icon-cast
+[=] IDENTIQUE fe-check                        icon-check
+[>] RENOMMEE  fe-check-circle                 icon-circle-check
+[>] RENOMMEE  fe-check-square                 icon-square-check
+[=] IDENTIQUE fe-chevron-down                 icon-chevron-down
+[=] IDENTIQUE fe-chevron-left                 icon-chevron-left
+[=] IDENTIQUE fe-chevron-right                icon-chevron-right
+[=] IDENTIQUE fe-chevron-up                   icon-chevron-up
+[=] IDENTIQUE fe-chevrons-down                icon-chevrons-down
+[=] IDENTIQUE fe-chevrons-left                icon-chevrons-left
+[=] IDENTIQUE fe-chevrons-right               icon-chevrons-right
+[=] IDENTIQUE fe-chevrons-up                  icon-chevrons-up
+[=] IDENTIQUE fe-chrome                       icon-chrome
+[=] IDENTIQUE fe-circle                       icon-circle
+[=] IDENTIQUE fe-clipboard                    icon-clipboard
+[=] IDENTIQUE fe-clock                        icon-clock
+[=] IDENTIQUE fe-cloud                        icon-cloud
+[=] IDENTIQUE fe-cloud-drizzle                icon-cloud-drizzle
+[=] IDENTIQUE fe-cloud-lightning              icon-cloud-lightning
+[=] IDENTIQUE fe-cloud-off                    icon-cloud-off
+[=] IDENTIQUE fe-cloud-rain                   icon-cloud-rain
+[=] IDENTIQUE fe-cloud-snow                   icon-cloud-snow
+[=] IDENTIQUE fe-code                         icon-code
+[=] IDENTIQUE fe-codepen                      icon-codepen
+[=] IDENTIQUE fe-command                      icon-command
+[=] IDENTIQUE fe-compass                      icon-compass
+[=] IDENTIQUE fe-copy                         icon-copy
+[=] IDENTIQUE fe-corner-down-left             icon-corner-down-left
+[=] IDENTIQUE fe-corner-down-right            icon-corner-down-right
+[=] IDENTIQUE fe-corner-left-down             icon-corner-left-down
+[=] IDENTIQUE fe-corner-left-up               icon-corner-left-up
+[=] IDENTIQUE fe-corner-right-down            icon-corner-right-down
+[=] IDENTIQUE fe-corner-right-up              icon-corner-right-up
+[=] IDENTIQUE fe-corner-up-left               icon-corner-up-left
+[=] IDENTIQUE fe-corner-up-right              icon-corner-up-right
+[=] IDENTIQUE fe-cpu                          icon-cpu
+[=] IDENTIQUE fe-credit-card                  icon-credit-card
+[=] IDENTIQUE fe-crop                         icon-crop
+[=] IDENTIQUE fe-crosshair                    icon-crosshair
+[=] IDENTIQUE fe-database                     icon-database
+[=] IDENTIQUE fe-delete                       icon-delete
+[=] IDENTIQUE fe-disc                         icon-disc
+[=] IDENTIQUE fe-dollar-sign                  icon-dollar-sign
+[=] IDENTIQUE fe-download                     icon-download
+[=] IDENTIQUE fe-download-cloud               icon-download-cloud
+[=] IDENTIQUE fe-droplet                      icon-droplet
+[>] RENOMMEE  fe-edit                         icon-pencil
+[>] RENOMMEE  fe-edit-2                       icon-pen
+[>] RENOMMEE  fe-edit-3                       icon-pen-line
+[=] IDENTIQUE fe-external-link                icon-external-link
+[=] IDENTIQUE fe-eye                          icon-eye
+[=] IDENTIQUE fe-eye-off                      icon-eye-off
+[=] IDENTIQUE fe-facebook                     icon-facebook
+[=] IDENTIQUE fe-fast-forward                 icon-fast-forward
+[=] IDENTIQUE fe-feather                      icon-feather
+[=] IDENTIQUE fe-file                         icon-file
+[=] IDENTIQUE fe-file-minus                   icon-file-minus
+[=] IDENTIQUE fe-file-plus                    icon-file-plus
+[=] IDENTIQUE fe-file-text                    icon-file-text
+[=] IDENTIQUE fe-film                         icon-film
+[=] IDENTIQUE fe-filter                       icon-filter
+[=] IDENTIQUE fe-flag                         icon-flag
+[=] IDENTIQUE fe-folder                       icon-folder
+[=] IDENTIQUE fe-folder-minus                 icon-folder-minus
+[=] IDENTIQUE fe-folder-plus                  icon-folder-plus
+[=] IDENTIQUE fe-git-branch                   icon-git-branch
+[>] RENOMMEE  fe-git-commit                   icon-git-commit-horizontal
+[=] IDENTIQUE fe-git-merge                    icon-git-merge
+[=] IDENTIQUE fe-git-pull-request             icon-git-pull-request
+[=] IDENTIQUE fe-github                       icon-github
+[=] IDENTIQUE fe-gitlab                       icon-gitlab
+[=] IDENTIQUE fe-globe                        icon-globe
+[=] IDENTIQUE fe-grid                         icon-grid
+[=] IDENTIQUE fe-hard-drive                   icon-hard-drive
+[=] IDENTIQUE fe-hash                         icon-hash
+[=] IDENTIQUE fe-headphones                   icon-headphones
+[=] IDENTIQUE fe-heart                        icon-heart
+[>] RENOMMEE  fe-help-circle                  icon-circle-help
+[=] IDENTIQUE fe-home                         icon-home
+[=] IDENTIQUE fe-image                        icon-image
+[=] IDENTIQUE fe-inbox                        icon-inbox
+[=] IDENTIQUE fe-info                         icon-info
+[=] IDENTIQUE fe-instagram                    icon-instagram
+[=] IDENTIQUE fe-italic                       icon-italic
+[=] IDENTIQUE fe-layers                       icon-layers
+[=] IDENTIQUE fe-layout                       icon-layout
+[=] IDENTIQUE fe-life-buoy                    icon-life-buoy
+[=] IDENTIQUE fe-link                         icon-link
+[=] IDENTIQUE fe-link-2                       icon-link-2
+[=] IDENTIQUE fe-linkedin                     icon-linkedin
+[=] IDENTIQUE fe-list                         icon-list
+[=] IDENTIQUE fe-loader                       icon-loader
+[=] IDENTIQUE fe-lock                         icon-lock
+[=] IDENTIQUE fe-log-in                       icon-log-in
+[=] IDENTIQUE fe-log-out                      icon-log-out
+[=] IDENTIQUE fe-mail                         icon-mail
+[=] IDENTIQUE fe-map                          icon-map
+[=] IDENTIQUE fe-map-pin                      icon-map-pin
+[=] IDENTIQUE fe-maximize                     icon-maximize
+[=] IDENTIQUE fe-maximize-2                   icon-maximize-2
+[=] IDENTIQUE fe-menu                         icon-menu
+[=] IDENTIQUE fe-message-circle               icon-message-circle
+[=] IDENTIQUE fe-message-square               icon-message-square
+[=] IDENTIQUE fe-mic                          icon-mic
+[=] IDENTIQUE fe-mic-off                      icon-mic-off
+[=] IDENTIQUE fe-minimize                     icon-minimize
+[=] IDENTIQUE fe-minimize-2                   icon-minimize-2
+[=] IDENTIQUE fe-minus                        icon-minus
+[>] RENOMMEE  fe-minus-circle                 icon-circle-minus
+[>] RENOMMEE  fe-minus-square                 icon-square-minus
+[=] IDENTIQUE fe-monitor                      icon-monitor
+[=] IDENTIQUE fe-moon                         icon-moon
+[>] RENOMMEE  fe-more-horizontal              icon-ellipsis
+[>] RENOMMEE  fe-more-vertical                icon-ellipsis-vertical
+[=] IDENTIQUE fe-move                         icon-move
+[=] IDENTIQUE fe-music                        icon-music
+[=] IDENTIQUE fe-navigation                   icon-navigation
+[=] IDENTIQUE fe-navigation-2                 icon-navigation-2
+[=] IDENTIQUE fe-octagon                      icon-octagon
+[=] IDENTIQUE fe-package                      icon-package
+[=] IDENTIQUE fe-paperclip                    icon-paperclip
+[=] IDENTIQUE fe-pause                        icon-pause
+[>] RENOMMEE  fe-pause-circle                 icon-circle-pause
+[=] IDENTIQUE fe-percent                      icon-percent
+[=] IDENTIQUE fe-phone                        icon-phone
+[=] IDENTIQUE fe-phone-call                   icon-phone-call
+[=] IDENTIQUE fe-phone-forwarded              icon-phone-forwarded
+[=] IDENTIQUE fe-phone-incoming               icon-phone-incoming
+[=] IDENTIQUE fe-phone-missed                 icon-phone-missed
+[=] IDENTIQUE fe-phone-off                    icon-phone-off
+[=] IDENTIQUE fe-phone-outgoing               icon-phone-outgoing
+[=] IDENTIQUE fe-pie-chart                    icon-pie-chart
+[=] IDENTIQUE fe-play                         icon-play
+[>] RENOMMEE  fe-play-circle                  icon-circle-play
+[=] IDENTIQUE fe-plus                         icon-plus
+[>] RENOMMEE  fe-plus-circle                  icon-circle-plus
+[>] RENOMMEE  fe-plus-square                  icon-square-plus
+[=] IDENTIQUE fe-pocket                       icon-pocket
+[=] IDENTIQUE fe-power                        icon-power
+[=] IDENTIQUE fe-printer                      icon-printer
+[=] IDENTIQUE fe-radio                        icon-radio
+[=] IDENTIQUE fe-refresh-ccw                  icon-refresh-ccw
+[=] IDENTIQUE fe-refresh-cw                   icon-refresh-cw
+[=] IDENTIQUE fe-repeat                       icon-repeat
+[=] IDENTIQUE fe-rewind                       icon-rewind
+[=] IDENTIQUE fe-rotate-ccw                   icon-rotate-ccw
+[=] IDENTIQUE fe-rotate-cw                    icon-rotate-cw
+[=] IDENTIQUE fe-rss                          icon-rss
+[=] IDENTIQUE fe-save                         icon-save
+[=] IDENTIQUE fe-scissors                     icon-scissors
+[=] IDENTIQUE fe-search                       icon-search
+[=] IDENTIQUE fe-send                         icon-send
+[=] IDENTIQUE fe-server                       icon-server
+[=] IDENTIQUE fe-settings                     icon-settings
+[=] IDENTIQUE fe-share                        icon-share
+[=] IDENTIQUE fe-share-2                      icon-share-2
+[=] IDENTIQUE fe-shield                       icon-shield
+[=] IDENTIQUE fe-shield-off                   icon-shield-off
+[=] IDENTIQUE fe-shopping-bag                 icon-shopping-bag
+[=] IDENTIQUE fe-shopping-cart                icon-shopping-cart
+[=] IDENTIQUE fe-shuffle                      icon-shuffle
+[=] IDENTIQUE fe-sidebar                      icon-sidebar
+[=] IDENTIQUE fe-skip-back                    icon-skip-back
+[=] IDENTIQUE fe-skip-forward                 icon-skip-forward
+[=] IDENTIQUE fe-slack                        icon-slack
+[=] IDENTIQUE fe-slash                        icon-slash
+[>] RENOMMEE  fe-sliders                      icon-sliders-horizontal
+[=] IDENTIQUE fe-smartphone                   icon-smartphone
+[=] IDENTIQUE fe-speaker                      icon-speaker
+[=] IDENTIQUE fe-square                       icon-square
+[=] IDENTIQUE fe-star                         icon-star
+[>] RENOMMEE  fe-stop-circle                  icon-circle-stop
+[=] IDENTIQUE fe-sun                          icon-sun
+[=] IDENTIQUE fe-sunrise                      icon-sunrise
+[=] IDENTIQUE fe-sunset                       icon-sunset
+[=] IDENTIQUE fe-tablet                       icon-tablet
+[=] IDENTIQUE fe-tag                          icon-tag
+[=] IDENTIQUE fe-target                       icon-target
+[=] IDENTIQUE fe-terminal                     icon-terminal
+[=] IDENTIQUE fe-thermometer                  icon-thermometer
+[=] IDENTIQUE fe-thumbs-down                  icon-thumbs-down
+[=] IDENTIQUE fe-thumbs-up                    icon-thumbs-up
+[=] IDENTIQUE fe-toggle-left                  icon-toggle-left
+[=] IDENTIQUE fe-toggle-right                 icon-toggle-right
+[=] IDENTIQUE fe-trash                        icon-trash
+[=] IDENTIQUE fe-trash-2                      icon-trash-2
+[=] IDENTIQUE fe-trending-down                icon-trending-down
+[=] IDENTIQUE fe-trending-up                  icon-trending-up
+[=] IDENTIQUE fe-triangle                     icon-triangle
+[=] IDENTIQUE fe-truck                        icon-truck
+[=] IDENTIQUE fe-tv                           icon-tv
+[=] IDENTIQUE fe-twitter                      icon-twitter
+[=] IDENTIQUE fe-type                         icon-type
+[=] IDENTIQUE fe-umbrella                     icon-umbrella
+[=] IDENTIQUE fe-underline                    icon-underline
+[=] IDENTIQUE fe-unlock                       icon-unlock
+[=] IDENTIQUE fe-upload                       icon-upload
+[=] IDENTIQUE fe-upload-cloud                 icon-upload-cloud
+[=] IDENTIQUE fe-user                         icon-user
+[=] IDENTIQUE fe-user-check                   icon-user-check
+[=] IDENTIQUE fe-user-minus                   icon-user-minus
+[=] IDENTIQUE fe-user-plus                    icon-user-plus
+[=] IDENTIQUE fe-user-x                       icon-user-x
+[=] IDENTIQUE fe-users                        icon-users
+[=] IDENTIQUE fe-video                        icon-video
+[=] IDENTIQUE fe-video-off                    icon-video-off
+[=] IDENTIQUE fe-voicemail                    icon-voicemail
+[=] IDENTIQUE fe-volume                       icon-volume
+[=] IDENTIQUE fe-volume-1                     icon-volume-1
+[=] IDENTIQUE fe-volume-2                     icon-volume-2
+[=] IDENTIQUE fe-volume-x                     icon-volume-x
+[=] IDENTIQUE fe-watch                        icon-watch
+[=] IDENTIQUE fe-wifi                         icon-wifi
+[=] IDENTIQUE fe-wifi-off                     icon-wifi-off
+[=] IDENTIQUE fe-wind                         icon-wind
+[=] IDENTIQUE fe-x                            icon-x
+[>] RENOMMEE  fe-x-circle                     icon-circle-x
+[>] RENOMMEE  fe-x-square                     icon-square-x
+[=] IDENTIQUE fe-zap                          icon-zap
+[=] IDENTIQUE fe-zap-off                      icon-zap-off
+[=] IDENTIQUE fe-zoom-in                      icon-zoom-in
+[=] IDENTIQUE fe-zoom-out                     icon-zoom-out
+
+========================================================================
+B. RÉCAPITULATIF (263 icônes Feather au total)
+========================================================================
+
+  [=] Identiques  : 237  (préfixe seul change, .fe- -> .icon-)
+  [>] Renommées   : 26  (nom différent dans Lucide)
+  [?] Supprimées  : 0  (absentes de Lucide -> fallback icon-file-question)
+  [+] Nouvelles   : 1688  (disponibles dans Lucide, sans équivalent Feather)
+
+========================================================================
+D. NOUVELLES ICÔNES LUCIDE SANS ÉQUIVALENT FEATHER (1688)
+========================================================================
+
+  Utilisez-les avec : <i class="icon-NOM"></i>
+
+  icon-a-arrow-down                          icon-a-arrow-up                            icon-a-large-small                         icon-accessibility
+  icon-activity-square                       icon-air-vent                              icon-alarm-check                           icon-alarm-clock
+  icon-alarm-clock-check                     icon-alarm-clock-minus                     icon-alarm-clock-off                       icon-alarm-clock-plus
+  icon-alarm-minus                           icon-alarm-plus                            icon-alarm-smoke                           icon-album
+  icon-alert-circle                          icon-alert-octagon                         icon-alert-triangle                        icon-align-center-horizontal
+  icon-align-center-vertical                 icon-align-end-horizontal                  icon-align-end-vertical                    icon-align-horizontal-distribute-center
+  icon-align-horizontal-distribute-end       icon-align-horizontal-distribute-start     icon-align-horizontal-justify-center       icon-align-horizontal-justify-end
+  icon-align-horizontal-justify-start        icon-align-horizontal-space-around         icon-align-horizontal-space-between        icon-align-start-horizontal
+  icon-align-start-vertical                  icon-align-vertical-distribute-center      icon-align-vertical-distribute-end         icon-align-vertical-distribute-start
+  icon-align-vertical-justify-center         icon-align-vertical-justify-end            icon-align-vertical-justify-start          icon-align-vertical-space-around
+  icon-align-vertical-space-between          icon-ambulance                             icon-ampersand                             icon-ampersands
+  icon-amphora                               icon-angry                                 icon-annoyed                               icon-antenna
+  icon-anvil                                 icon-app-window                            icon-app-window-mac                        icon-apple
+  icon-archive                               icon-archive-restore                       icon-archive-x                             icon-area-chart
+  icon-armchair                              icon-arrow-big-down                        icon-arrow-big-down-dash                   icon-arrow-big-left
+  icon-arrow-big-left-dash                   icon-arrow-big-right                       icon-arrow-big-right-dash                  icon-arrow-big-up
+  icon-arrow-big-up-dash                     icon-arrow-down-0-1                        icon-arrow-down-01                         icon-arrow-down-1-0
+  icon-arrow-down-10                         icon-arrow-down-a-z                        icon-arrow-down-az                         icon-arrow-down-circle
+  icon-arrow-down-from-line                  icon-arrow-down-left-from-circle           icon-arrow-down-left-from-square           icon-arrow-down-left-square
+  icon-arrow-down-narrow-wide                icon-arrow-down-right-from-circle          icon-arrow-down-right-from-square          icon-arrow-down-right-square
+  icon-arrow-down-square                     icon-arrow-down-to-dot                     icon-arrow-down-to-line                    icon-arrow-down-up
+  icon-arrow-down-wide-narrow                icon-arrow-down-z-a                        icon-arrow-down-za                         icon-arrow-left-circle
+  icon-arrow-left-from-line                  icon-arrow-left-right                      icon-arrow-left-square                     icon-arrow-left-to-line
+  icon-arrow-right-circle                    icon-arrow-right-from-line                 icon-arrow-right-left                      icon-arrow-right-square
+  icon-arrow-right-to-line                   icon-arrow-up-0-1                          icon-arrow-up-01                           icon-arrow-up-1-0
+  icon-arrow-up-10                           icon-arrow-up-a-z                          icon-arrow-up-az                           icon-arrow-up-circle
+  icon-arrow-up-down                         icon-arrow-up-from-dot                     icon-arrow-up-from-line                    icon-arrow-up-left-from-circle
+  icon-arrow-up-left-from-square             icon-arrow-up-left-square                  icon-arrow-up-narrow-wide                  icon-arrow-up-right-from-circle
+  icon-arrow-up-right-from-square            icon-arrow-up-right-square                 icon-arrow-up-square                       icon-arrow-up-to-line
+  icon-arrow-up-wide-narrow                  icon-arrow-up-z-a                          icon-arrow-up-za                           icon-arrows-up-from-line
+  icon-asterisk                              icon-asterisk-square                       icon-atom                                  icon-audio-lines
+  icon-audio-waveform                        icon-axe                                   icon-axis-3-d                              icon-axis-3d
+  icon-baby                                  icon-backpack                              icon-badge                                 icon-badge-alert
+  icon-badge-cent                            icon-badge-check                           icon-badge-dollar-sign                     icon-badge-euro
+  icon-badge-help                            icon-badge-indian-rupee                    icon-badge-info                            icon-badge-japanese-yen
+  icon-badge-minus                           icon-badge-percent                         icon-badge-plus                            icon-badge-pound-sterling
+  icon-badge-question-mark                   icon-badge-russian-ruble                   icon-badge-swiss-franc                     icon-badge-turkish-lira
+  icon-badge-x                               icon-baggage-claim                         icon-balloon                               icon-ban
+  icon-banana                                icon-bandage                               icon-banknote                              icon-banknote-arrow-down
+  icon-banknote-arrow-up                     icon-banknote-x                            icon-bar-chart-3                           icon-bar-chart-4
+  icon-bar-chart-big                         icon-bar-chart-horizontal                  icon-bar-chart-horizontal-big              icon-barcode
+  icon-barrel                                icon-baseline                              icon-bath                                  icon-battery-full
+  icon-battery-low                           icon-battery-medium                        icon-battery-plus                          icon-battery-warning
+  icon-beaker                                icon-bean                                  icon-bean-off                              icon-bed
+  icon-bed-double                            icon-bed-single                            icon-beef                                  icon-beer
+  icon-beer-off                              icon-bell-dot                              icon-bell-electric                         icon-bell-minus
+  icon-bell-plus                             icon-bell-ring                             icon-between-horizonal-end                 icon-between-horizonal-start
+  icon-between-horizontal-end                icon-between-horizontal-start              icon-between-vertical-end                  icon-between-vertical-start
+  icon-biceps-flexed                         icon-bike                                  icon-binary                                icon-binoculars
+  icon-biohazard                             icon-bird                                  icon-birdhouse                             icon-bitcoin
+  icon-blend                                 icon-blinds                                icon-blocks                                icon-bluetooth-connected
+  icon-bluetooth-off                         icon-bluetooth-searching                   icon-bolt                                  icon-bomb
+  icon-bone                                  icon-book-a                                icon-book-alert                            icon-book-audio
+  icon-book-check                            icon-book-copy                             icon-book-dashed                           icon-book-down
+  icon-book-headphones                       icon-book-heart                            icon-book-image                            icon-book-key
+  icon-book-lock                             icon-book-marked                           icon-book-minus                            icon-book-open-check
+  icon-book-open-text                        icon-book-plus                             icon-book-search                           icon-book-template
+  icon-book-text                             icon-book-type                             icon-book-up                               icon-book-up-2
+  icon-book-user                             icon-book-x                                icon-bookmark-check                        icon-bookmark-minus
+  icon-bookmark-plus                         icon-bookmark-x                            icon-boom-box                              icon-bot
+  icon-bot-message-square                    icon-bot-off                               icon-bottle-wine                           icon-bow-arrow
+  icon-box-select                            icon-boxes                                 icon-braces                                icon-brackets
+  icon-brain                                 icon-brain-circuit                         icon-brain-cog                             icon-brick-wall
+  icon-brick-wall-fire                       icon-brick-wall-shield                     icon-briefcase-business                    icon-briefcase-conveyor-belt
+  icon-briefcase-medical                     icon-bring-to-front                        icon-brush                                 icon-brush-cleaning
+  icon-bubbles                               icon-bug                                   icon-bug-off                               icon-bug-play
+  icon-building                              icon-building-2                            icon-bus                                   icon-bus-front
+  icon-cable                                 icon-cable-car                             icon-cake                                  icon-cake-slice
+  icon-calculator                            icon-calendar-1                            icon-calendar-arrow-down                   icon-calendar-arrow-up
+  icon-calendar-check                        icon-calendar-check-2                      icon-calendar-clock                        icon-calendar-cog
+  icon-calendar-days                         icon-calendar-fold                         icon-calendar-heart                        icon-calendar-minus
+  icon-calendar-minus-2                      icon-calendar-off                          icon-calendar-plus                         icon-calendar-plus-2
+  icon-calendar-range                        icon-calendar-search                       icon-calendar-sync                         icon-calendar-x
+  icon-calendar-x-2                          icon-calendars                             icon-candlestick-chart                     icon-candy
+  icon-candy-cane                            icon-candy-off                             icon-cannabis                              icon-cannabis-off
+  icon-captions                              icon-captions-off                          icon-car                                   icon-car-front
+  icon-car-taxi-front                        icon-caravan                               icon-card-sim                              icon-carrot
+  icon-case-lower                            icon-case-sensitive                        icon-case-upper                            icon-cassette-tape
+  icon-castle                                icon-cat                                   icon-cctv                                  icon-chart-area
+  icon-chart-bar                             icon-chart-bar-big                         icon-chart-bar-decreasing                  icon-chart-bar-increasing
+  icon-chart-bar-stacked                     icon-chart-candlestick                     icon-chart-column                          icon-chart-column-big
+  icon-chart-column-decreasing               icon-chart-column-increasing               icon-chart-column-stacked                  icon-chart-gantt
+  icon-chart-line                            icon-chart-network                         icon-chart-no-axes-column                  icon-chart-no-axes-column-decreasing
+  icon-chart-no-axes-column-increasing       icon-chart-no-axes-combined                icon-chart-no-axes-gantt                   icon-chart-pie
+  icon-chart-scatter                         icon-chart-spline                          icon-check-check                           icon-check-circle
+  icon-check-circle-2                        icon-check-line                            icon-check-square                          icon-check-square-2
+  icon-chef-hat                              icon-cherry                                icon-chess-bishop                          icon-chess-king
+  icon-chess-knight                          icon-chess-pawn                            icon-chess-queen                           icon-chess-rook
+  icon-chevron-down-circle                   icon-chevron-down-square                   icon-chevron-first                         icon-chevron-last
+  icon-chevron-left-circle                   icon-chevron-left-square                   icon-chevron-right-circle                  icon-chevron-right-square
+  icon-chevron-up-circle                     icon-chevron-up-square                     icon-chevrons-down-up                      icon-chevrons-left-right
+  icon-chevrons-left-right-ellipsis          icon-chevrons-right-left                   icon-chevrons-up-down                      icon-chromium
+  icon-church                                icon-cigarette                             icon-cigarette-off                         icon-circle-arrow-out-down-left
+  icon-circle-arrow-out-down-right           icon-circle-arrow-out-up-left              icon-circle-arrow-out-up-right             icon-circle-check-big
+  icon-circle-chevron-down                   icon-circle-chevron-left                   icon-circle-chevron-right                  icon-circle-chevron-up
+  icon-circle-dashed                         icon-circle-divide                         icon-circle-dollar-sign                    icon-circle-dot
+  icon-circle-dot-dashed                     icon-circle-ellipsis                       icon-circle-equal                          icon-circle-fading-arrow-up
+  icon-circle-fading-plus                    icon-circle-gauge                          icon-circle-off                            icon-circle-parking
+  icon-circle-parking-off                    icon-circle-percent                        icon-circle-pile                           icon-circle-pound-sterling
+  icon-circle-power                          icon-circle-question-mark                  icon-circle-slash                          icon-circle-slash-2
+  icon-circle-slashed                        icon-circle-small                          icon-circle-star                           icon-circle-user
+  icon-circle-user-round                     icon-circuit-board                         icon-citrus                                icon-clapperboard
+  icon-clipboard-check                       icon-clipboard-clock                       icon-clipboard-copy                        icon-clipboard-edit
+  icon-clipboard-list                        icon-clipboard-minus                       icon-clipboard-paste                       icon-clipboard-pen
+  icon-clipboard-pen-line                    icon-clipboard-plus                        icon-clipboard-signature                   icon-clipboard-type
+  icon-clipboard-x                           icon-clock-1                               icon-clock-10                              icon-clock-11
+  icon-clock-12                              icon-clock-2                               icon-clock-3                               icon-clock-4
+  icon-clock-5                               icon-clock-6                               icon-clock-7                               icon-clock-8
+  icon-clock-9                               icon-clock-alert                           icon-clock-arrow-down                      icon-clock-arrow-up
+  icon-clock-check                           icon-clock-fading                          icon-clock-plus                            icon-closed-caption
+  icon-cloud-alert                           icon-cloud-backup                          icon-cloud-check                           icon-cloud-cog
+  icon-cloud-download                        icon-cloud-fog                             icon-cloud-hail                            icon-cloud-moon
+  icon-cloud-moon-rain                       icon-cloud-rain-wind                       icon-cloud-sun                             icon-cloud-sun-rain
+  icon-cloud-sync                            icon-cloud-upload                          icon-cloudy                                icon-clover
+  icon-club                                  icon-code-2                                icon-code-square                           icon-code-xml
+  icon-codesandbox                           icon-coffee                                icon-cog                                   icon-coins
+  icon-columns                               icon-columns-2                             icon-columns-3                             icon-columns-3-cog
+  icon-columns-4                             icon-columns-settings                      icon-combine                               icon-component
+  icon-computer                              icon-concierge-bell                        icon-cone                                  icon-construction
+  icon-contact                               icon-contact-2                             icon-contact-round                         icon-container
+  icon-contrast                              icon-cookie                                icon-cooking-pot                           icon-copy-check
+  icon-copy-minus                            icon-copy-plus                             icon-copy-slash                            icon-copy-x
+  icon-copyleft                              icon-copyright                             icon-creative-commons                      icon-croissant
+  icon-cross                                 icon-crown                                 icon-cuboid                                icon-cup-soda
+  icon-curly-braces                          icon-currency                              icon-cylinder                              icon-dam
+  icon-database-backup                       icon-database-search                       icon-database-zap                          icon-decimals-arrow-left
+  icon-decimals-arrow-right                  icon-dessert                               icon-diameter                              icon-diamond
+  icon-diamond-minus                         icon-diamond-percent                       icon-diamond-plus                          icon-dice-1
+  icon-dice-2                                icon-dice-3                                icon-dice-4                                icon-dice-5
+  icon-dice-6                                icon-dices                                 icon-diff                                  icon-disc-2
+  icon-disc-3                                icon-disc-album                            icon-divide                                icon-divide-circle
+  icon-divide-square                         icon-dna                                   icon-dna-off                               icon-dock
+  icon-dog                                   icon-donut                                 icon-door-closed                           icon-door-closed-locked
+  icon-door-open                             icon-dot                                   icon-dot-square                            icon-drafting-compass
+  icon-drama                                 icon-dribbble                              icon-drill                                 icon-drone
+  icon-droplet-off                           icon-droplets                              icon-drum                                  icon-drumstick
+  icon-dumbbell                              icon-ear                                   icon-ear-off                               icon-earth
+  icon-earth-lock                            icon-eclipse                               icon-edit                                  icon-edit-2
+  icon-edit-3                                icon-egg                                   icon-egg-fried                             icon-egg-off
+  icon-ellipse                               icon-equal                                 icon-equal-approximately                   icon-equal-not
+  icon-equal-square                          icon-eraser                                icon-ethernet-port                         icon-euro
+  icon-ev-charger                            icon-expand                                icon-eye-closed                            icon-factory
+  icon-fan                                   icon-fence                                 icon-ferris-wheel                          icon-figma
+  icon-file-archive                          icon-file-audio                            icon-file-audio-2                          icon-file-axis-3-d
+  icon-file-axis-3d                          icon-file-badge                            icon-file-badge-2                          icon-file-bar-chart
+  icon-file-bar-chart-2                      icon-file-box                              icon-file-braces                           icon-file-braces-corner
+  icon-file-chart-column                     icon-file-chart-column-increasing          icon-file-chart-line                       icon-file-chart-pie
+  icon-file-check                            icon-file-check-2                          icon-file-check-corner                     icon-file-clock
+  icon-file-code                             icon-file-code-2                           icon-file-code-corner                      icon-file-cog
+  icon-file-cog-2                            icon-file-diff                             icon-file-digit                            icon-file-down
+  icon-file-edit                             icon-file-exclamation-point                icon-file-headphone                        icon-file-heart
+  icon-file-image                            icon-file-input                            icon-file-json                             icon-file-json-2
+  icon-file-key                              icon-file-key-2                            icon-file-line-chart                       icon-file-lock
+  icon-file-lock-2                           icon-file-minus-2                          icon-file-minus-corner                     icon-file-music
+  icon-file-output                           icon-file-pen                              icon-file-pen-line                         icon-file-pie-chart
+  icon-file-play                             icon-file-plus-2                           icon-file-plus-corner                      icon-file-question
+  icon-file-question-mark                    icon-file-scan                             icon-file-search                           icon-file-search-2
+  icon-file-search-corner                    icon-file-signal                           icon-file-signature                        icon-file-sliders
+  icon-file-spreadsheet                      icon-file-stack                            icon-file-symlink                          icon-file-terminal
+  icon-file-type                             icon-file-type-2                           icon-file-type-corner                      icon-file-up
+  icon-file-user                             icon-file-video                            icon-file-video-2                          icon-file-video-camera
+  icon-file-volume                           icon-file-volume-2                         icon-file-warning                          icon-file-x
+  icon-file-x-2                              icon-file-x-corner                         icon-files                                 icon-filter-x
+  icon-fingerprint                           icon-fingerprint-pattern                   icon-fire-extinguisher                     icon-fish
+  icon-fish-off                              icon-fish-symbol                           icon-fishing-hook                          icon-fishing-rod
+  icon-flag-off                              icon-flag-triangle-left                    icon-flag-triangle-right                   icon-flame
+  icon-flame-kindling                        icon-flashlight                            icon-flashlight-off                        icon-flask-conical
+  icon-flask-conical-off                     icon-flask-round                           icon-flip-horizontal                       icon-flip-horizontal-2
+  icon-flip-vertical                         icon-flip-vertical-2                       icon-flower                                icon-flower-2
+  icon-focus                                 icon-fold-horizontal                       icon-fold-vertical                         icon-folder-archive
+  icon-folder-check                          icon-folder-clock                          icon-folder-closed                         icon-folder-code
+  icon-folder-cog                            icon-folder-cog-2                          icon-folder-dot                            icon-folder-down
+  icon-folder-edit                           icon-folder-git                            icon-folder-git-2                          icon-folder-heart
+  icon-folder-input                          icon-folder-kanban                         icon-folder-key                            icon-folder-lock
+  icon-folder-open                           icon-folder-open-dot                       icon-folder-output                         icon-folder-pen
+  icon-folder-root                           icon-folder-search                         icon-folder-search-2                       icon-folder-symlink
+  icon-folder-sync                           icon-folder-tree                           icon-folder-up                             icon-folder-x
+  icon-folders                               icon-footprints                            icon-fork-knife                            icon-fork-knife-crossed
+  icon-forklift                              icon-form                                  icon-form-input                            icon-forward
+  icon-frame                                 icon-framer                                icon-frown                                 icon-fuel
+  icon-fullscreen                            icon-function-square                       icon-funnel                                icon-funnel-plus
+  icon-funnel-x                              icon-gallery-horizontal                    icon-gallery-horizontal-end                icon-gallery-thumbnails
+  icon-gallery-vertical                      icon-gallery-vertical-end                  icon-gamepad                               icon-gamepad-2
+  icon-gamepad-directional                   icon-gantt-chart                           icon-gantt-chart-square                    icon-gauge
+  icon-gauge-circle                          icon-gavel                                 icon-gem                                   icon-georgian-lari
+  icon-ghost                                 icon-gift                                  icon-git-branch-minus                      icon-git-branch-plus
+  icon-git-commit                            icon-git-commit-vertical                   icon-git-compare                           icon-git-compare-arrows
+  icon-git-fork                              icon-git-graph                             icon-git-merge-conflict                    icon-git-pull-request-arrow
+  icon-git-pull-request-closed               icon-git-pull-request-create               icon-git-pull-request-create-arrow         icon-git-pull-request-draft
+  icon-glass-water                           icon-glasses                               icon-globe-2                               icon-globe-lock
+  icon-globe-off                             icon-globe-x                               icon-goal                                  icon-gpu
+  icon-grab                                  icon-graduation-cap                        icon-grape                                 icon-grid-2-x-2
+  icon-grid-2-x-2-check                      icon-grid-2-x-2-plus                       icon-grid-2-x-2-x                          icon-grid-2x2
+  icon-grid-2x2-check                        icon-grid-2x2-plus                         icon-grid-2x2-x                            icon-grid-3-x-3
+  icon-grid-3x2                              icon-grid-3x3                              icon-grip                                  icon-grip-horizontal
+  icon-grip-vertical                         icon-group                                 icon-guitar                                icon-ham
+  icon-hamburger                             icon-hammer                                icon-hand                                  icon-hand-coins
+  icon-hand-fist                             icon-hand-grab                             icon-hand-heart                            icon-hand-helping
+  icon-hand-metal                            icon-hand-platter                          icon-handbag                               icon-handshake
+  icon-hard-drive-download                   icon-hard-drive-upload                     icon-hard-hat                              icon-hat-glasses
+  icon-haze                                  icon-hd                                    icon-hdmi-port                             icon-heading
+  icon-heading-1                             icon-heading-2                             icon-heading-3                             icon-heading-4
+  icon-heading-5                             icon-heading-6                             icon-headphone-off                         icon-headset
+  icon-heart-crack                           icon-heart-handshake                       icon-heart-minus                           icon-heart-off
+  icon-heart-plus                            icon-heart-pulse                           icon-heater                                icon-helicopter
+  icon-help-circle                           icon-helping-hand                          icon-hexagon                               icon-highlighter
+  icon-history                               icon-hop                                   icon-hop-off                               icon-hospital
+  icon-hotel                                 icon-hourglass                             icon-house                                 icon-house-heart
+  icon-house-plug                            icon-house-plus                            icon-house-wifi                            icon-ice-cream
+  icon-ice-cream-2                           icon-ice-cream-bowl                        icon-ice-cream-cone                        icon-id-card
+  icon-id-card-lanyard                       icon-image-down                            icon-image-minus                           icon-image-off
+  icon-image-play                            icon-image-plus                            icon-image-up                              icon-image-upscale
+  icon-images                                icon-import                                icon-indent                                icon-indent-decrease
+  icon-indent-increase                       icon-indian-rupee                          icon-infinity                              icon-inspect
+  icon-inspection-panel                      icon-iteration-ccw                         icon-iteration-cw                          icon-japanese-yen
+  icon-joystick                              icon-kanban                                icon-kanban-square                         icon-kanban-square-dashed
+  icon-kayak                                 icon-key                                   icon-key-round                             icon-key-square
+  icon-keyboard                              icon-keyboard-music                        icon-keyboard-off                          icon-lamp
+  icon-lamp-ceiling                          icon-lamp-desk                             icon-lamp-floor                            icon-lamp-wall-down
+  icon-lamp-wall-up                          icon-land-plot                             icon-landmark                              icon-languages
+  icon-laptop                                icon-laptop-2                              icon-laptop-minimal                        icon-laptop-minimal-check
+  icon-lasso                                 icon-lasso-select                          icon-laugh                                 icon-layers-2
+  icon-layers-3                              icon-layers-plus                           icon-layout-dashboard                      icon-layout-grid
+  icon-layout-list                           icon-layout-panel-left                     icon-layout-panel-top                      icon-layout-template
+  icon-leaf                                  icon-leafy-green                           icon-lectern                               icon-lens-concave
+  icon-lens-convex                           icon-letter-text                           icon-library                               icon-library-big
+  icon-library-square                        icon-ligature                              icon-lightbulb                             icon-lightbulb-off
+  icon-line-chart                            icon-line-dot-right-horizontal             icon-line-squiggle                         icon-link-2-off
+  icon-list-check                            icon-list-checks                           icon-list-chevrons-down-up                 icon-list-chevrons-up-down
+  icon-list-collapse                         icon-list-end                              icon-list-filter                           icon-list-filter-plus
+  icon-list-indent-decrease                  icon-list-indent-increase                  icon-list-minus                            icon-list-music
+  icon-list-ordered                          icon-list-plus                             icon-list-restart                          icon-list-start
+  icon-list-todo                             icon-list-tree                             icon-list-video                            icon-list-x
+  icon-loader-2                              icon-loader-circle                         icon-loader-pinwheel                       icon-locate
+  icon-locate-fixed                          icon-locate-off                            icon-location-edit                         icon-lock-keyhole
+  icon-lock-keyhole-open                     icon-lock-open                             icon-logs                                  icon-lollipop
+  icon-luggage                               icon-m-square                              icon-magnet                                icon-mail-check
+  icon-mail-minus                            icon-mail-open                             icon-mail-plus                             icon-mail-question
+  icon-mail-question-mark                    icon-mail-search                           icon-mail-warning                          icon-mail-x
+  icon-mailbox                               icon-mails                                 icon-map-minus                             icon-map-pin-check
+  icon-map-pin-check-inside                  icon-map-pin-house                         icon-map-pin-minus                         icon-map-pin-minus-inside
+  icon-map-pin-off                           icon-map-pin-pen                           icon-map-pin-plus                          icon-map-pin-plus-inside
+  icon-map-pin-x                             icon-map-pin-x-inside                      icon-map-pinned                            icon-map-plus
+  icon-mars                                  icon-mars-stroke                           icon-martini                               icon-medal
+  icon-megaphone                             icon-megaphone-off                         icon-meh                                   icon-memory-stick
+  icon-menu-square                           icon-merge                                 icon-message-circle-check                  icon-message-circle-code
+  icon-message-circle-dashed                 icon-message-circle-heart                  icon-message-circle-more                   icon-message-circle-off
+  icon-message-circle-plus                   icon-message-circle-question               icon-message-circle-question-mark          icon-message-circle-reply
+  icon-message-circle-warning                icon-message-circle-x                      icon-message-square-check                  icon-message-square-code
+  icon-message-square-dashed                 icon-message-square-diff                   icon-message-square-dot                    icon-message-square-heart
+  icon-message-square-lock                   icon-message-square-more                   icon-message-square-off                    icon-message-square-plus
+  icon-message-square-quote                  icon-message-square-reply                  icon-message-square-share                  icon-message-square-text
+  icon-message-square-warning                icon-message-square-x                      icon-messages-square                       icon-metronome
+  icon-mic-2                                 icon-mic-vocal                             icon-microchip                             icon-microscope
+  icon-microwave                             icon-milestone                             icon-milk                                  icon-milk-off
+  icon-minus-circle                          icon-minus-square                          icon-mirror-rectangular                    icon-mirror-round
+  icon-monitor-check                         icon-monitor-cloud                         icon-monitor-cog                           icon-monitor-dot
+  icon-monitor-down                          icon-monitor-off                           icon-monitor-pause                         icon-monitor-play
+  icon-monitor-smartphone                    icon-monitor-speaker                       icon-monitor-stop                          icon-monitor-up
+  icon-monitor-x                             icon-moon-star                             icon-more-horizontal                       icon-more-vertical
+  icon-motorbike                             icon-mountain                              icon-mountain-snow                         icon-mouse
+  icon-mouse-left                            icon-mouse-off                             icon-mouse-pointer                         icon-mouse-pointer-2
+  icon-mouse-pointer-2-off                   icon-mouse-pointer-ban                     icon-mouse-pointer-click                   icon-mouse-pointer-square-dashed
+  icon-mouse-right                           icon-move-3-d                              icon-move-3d                               icon-move-diagonal
+  icon-move-diagonal-2                       icon-move-down                             icon-move-down-left                        icon-move-down-right
+  icon-move-horizontal                       icon-move-left                             icon-move-right                            icon-move-up
+  icon-move-up-left                          icon-move-up-right                         icon-move-vertical                         icon-music-2
+  icon-music-3                               icon-music-4                               icon-navigation-2-off                      icon-navigation-off
+  icon-network                               icon-newspaper                             icon-nfc                                   icon-non-binary
+  icon-notebook                              icon-notebook-pen                          icon-notebook-tabs                         icon-notebook-text
+  icon-notepad-text                          icon-notepad-text-dashed                   icon-nut                                   icon-nut-off
+  icon-octagon-minus                         icon-octagon-pause                         icon-octagon-x                             icon-omega
+  icon-option                                icon-orbit                                 icon-origami                               icon-outdent
+  icon-package-2                             icon-package-check                         icon-package-minus                         icon-package-open
+  icon-package-plus                          icon-package-search                        icon-package-x                             icon-paint-bucket
+  icon-paint-roller                          icon-paintbrush                            icon-paintbrush-2                          icon-paintbrush-vertical
+  icon-palette                               icon-palmtree                              icon-panda                                 icon-panel-bottom
+  icon-panel-bottom-close                    icon-panel-bottom-dashed                   icon-panel-bottom-inactive                 icon-panel-bottom-open
+  icon-panel-left                            icon-panel-left-close                      icon-panel-left-dashed                     icon-panel-left-inactive
+  icon-panel-left-open                       icon-panel-left-right-dashed               icon-panel-right                           icon-panel-right-close
+  icon-panel-right-dashed                    icon-panel-right-inactive                  icon-panel-right-open                      icon-panel-top
+  icon-panel-top-bottom-dashed               icon-panel-top-close                       icon-panel-top-dashed                      icon-panel-top-inactive
+  icon-panel-top-open                        icon-panels-left-bottom                    icon-panels-left-right                     icon-panels-right-bottom
+  icon-panels-top-bottom                     icon-panels-top-left                       icon-parentheses                           icon-parking-circle
+  icon-parking-circle-off                    icon-parking-meter                         icon-parking-square                        icon-parking-square-off
+  icon-party-popper                          icon-pause-circle                          icon-pause-octagon                         icon-paw-print
+  icon-pc-case                               icon-pen-box                               icon-pen-off                               icon-pen-square
+  icon-pen-tool                              icon-pencil-line                           icon-pencil-off                            icon-pencil-ruler
+  icon-pentagon                              icon-percent-circle                        icon-percent-diamond                       icon-percent-square
+  icon-person-standing                       icon-philippine-peso                       icon-pi                                    icon-pi-square
+  icon-piano                                 icon-pickaxe                               icon-picture-in-picture                    icon-picture-in-picture-2
+  icon-piggy-bank                            icon-pilcrow                               icon-pilcrow-left                          icon-pilcrow-right
+  icon-pilcrow-square                        icon-pill                                  icon-pill-bottle                           icon-pin
+  icon-pin-off                               icon-pipette                               icon-pizza                                 icon-plane
+  icon-plane-landing                         icon-plane-takeoff                         icon-play-circle                           icon-play-square
+  icon-plug                                  icon-plug-2                                icon-plug-zap                              icon-plug-zap-2
+  icon-plus-circle                           icon-plus-square                           icon-pocket-knife                          icon-podcast
+  icon-pointer                               icon-pointer-off                           icon-popcorn                               icon-popsicle
+  icon-pound-sterling                        icon-power-circle                          icon-power-off                             icon-power-square
+  icon-presentation                          icon-printer-check                         icon-printer-x                             icon-projector
+  icon-proportions                           icon-puzzle                                icon-pyramid                               icon-qr-code
+  icon-quote                                 icon-rabbit                                icon-radar                                 icon-radiation
+  icon-radical                               icon-radio-receiver                        icon-radio-tower                           icon-radius
+  icon-rail-symbol                           icon-rainbow                               icon-rat                                   icon-ratio
+  icon-receipt                               icon-receipt-cent                          icon-receipt-euro                          icon-receipt-indian-rupee
+  icon-receipt-japanese-yen                  icon-receipt-pound-sterling                icon-receipt-russian-ruble                 icon-receipt-swiss-franc
+  icon-receipt-text                          icon-receipt-turkish-lira                  icon-rectangle-circle                      icon-rectangle-ellipsis
+  icon-rectangle-goggles                     icon-rectangle-horizontal                  icon-rectangle-vertical                    icon-recycle
+  icon-redo                                  icon-redo-2                                icon-redo-dot                              icon-refresh-ccw-dot
+  icon-refresh-cw-off                        icon-refrigerator                          icon-regex                                 icon-remove-formatting
+  icon-repeat-1                              icon-repeat-2                              icon-replace                               icon-replace-all
+  icon-reply                                 icon-reply-all                             icon-ribbon                                icon-rocket
+  icon-rocking-chair                         icon-roller-coaster                        icon-rose                                  icon-rotate-3-d
+  icon-rotate-3d                             icon-rotate-ccw-key                        icon-rotate-ccw-square                     icon-rotate-cw-square
+  icon-route                                 icon-route-off                             icon-router                                icon-rows
+  icon-rows-2                                icon-rows-3                                icon-rows-4                                icon-ruler
+  icon-ruler-dimension-line                  icon-russian-ruble                         icon-sailboat                              icon-salad
+  icon-sandwich                              icon-satellite                             icon-satellite-dish                        icon-saudi-riyal
+  icon-save-all                              icon-save-off                              icon-scale                                 icon-scale-3-d
+  icon-scale-3d                              icon-scaling                               icon-scan                                  icon-scan-barcode
+  icon-scan-eye                              icon-scan-face                             icon-scan-heart                            icon-scan-line
+  icon-scan-qr-code                          icon-scan-search                           icon-scan-text                             icon-scatter-chart
+  icon-school                                icon-school-2                              icon-scissors-line-dashed                  icon-scissors-square
+  icon-scissors-square-dashed-bottom         icon-scooter                               icon-screen-share                          icon-screen-share-off
+  icon-scroll                                icon-scroll-text                           icon-search-alert                          icon-search-check
+  icon-search-code                           icon-search-slash                          icon-search-x                              icon-section
+  icon-send-horizonal                        icon-send-horizontal                       icon-send-to-back                          icon-separator-horizontal
+  icon-separator-vertical                    icon-server-cog                            icon-server-crash                          icon-server-off
+  icon-settings-2                            icon-shapes                                icon-sheet                                 icon-shell
+  icon-shelving-unit                         icon-shield-alert                          icon-shield-ban                            icon-shield-check
+  icon-shield-close                          icon-shield-ellipsis                       icon-shield-half                           icon-shield-minus
+  icon-shield-plus                           icon-shield-question                       icon-shield-question-mark                  icon-shield-user
+  icon-shield-x                              icon-ship                                  icon-ship-wheel                            icon-shirt
+  icon-shopping-basket                       icon-shovel                                icon-shower-head                           icon-shredder
+  icon-shrimp                                icon-shrink                                icon-shrub                                 icon-sidebar-close
+  icon-sidebar-open                          icon-sigma                                 icon-sigma-square                          icon-signal
+  icon-signal-high                           icon-signal-low                            icon-signal-medium                         icon-signal-zero
+  icon-signature                             icon-signpost                              icon-signpost-big                          icon-siren
+  icon-skull                                 icon-slash-square                          icon-slice                                 icon-sliders
+  icon-sliders-vertical                      icon-smartphone-charging                   icon-smartphone-nfc                        icon-smile
+  icon-smile-plus                            icon-snail                                 icon-snowflake                             icon-soap-dispenser-droplet
+  icon-sofa                                  icon-solar-panel                           icon-sort-asc                              icon-sort-desc
+  icon-soup                                  icon-space                                 icon-spade                                 icon-sparkle
+  icon-sparkles                              icon-speech                                icon-spell-check                           icon-spell-check-2
+  icon-spline                                icon-spline-pointer                        icon-split                                 icon-split-square-horizontal
+  icon-split-square-vertical                 icon-spool                                 icon-spotlight                             icon-spray-can
+  icon-sprout                                icon-square-activity                       icon-square-arrow-down                     icon-square-arrow-down-left
+  icon-square-arrow-down-right               icon-square-arrow-left                     icon-square-arrow-out-down-left            icon-square-arrow-out-down-right
+  icon-square-arrow-out-up-left              icon-square-arrow-out-up-right             icon-square-arrow-right                    icon-square-arrow-right-enter
+  icon-square-arrow-right-exit               icon-square-arrow-up                       icon-square-arrow-up-left                  icon-square-arrow-up-right
+  icon-square-asterisk                       icon-square-bottom-dashed-scissors         icon-square-centerline-dashed-horizontal   icon-square-centerline-dashed-vertical
+  icon-square-chart-gantt                    icon-square-check-big                      icon-square-chevron-down                   icon-square-chevron-left
+  icon-square-chevron-right                  icon-square-chevron-up                     icon-square-code                           icon-square-dashed
+  icon-square-dashed-bottom                  icon-square-dashed-bottom-code             icon-square-dashed-kanban                  icon-square-dashed-mouse-pointer
+  icon-square-dashed-top-solid               icon-square-divide                         icon-square-dot                            icon-square-equal
+  icon-square-function                       icon-square-gantt-chart                    icon-square-kanban                         icon-square-library
+  icon-square-m                              icon-square-menu                           icon-square-mouse-pointer                  icon-square-parking
+  icon-square-parking-off                    icon-square-pause                          icon-square-pen                            icon-square-percent
+  icon-square-pi                             icon-square-pilcrow                        icon-square-play                           icon-square-power
+  icon-square-radical                        icon-square-round-corner                   icon-square-scissors                       icon-square-sigma
+  icon-square-slash                          icon-square-split-horizontal               icon-square-split-vertical                 icon-square-square
+  icon-square-stack                          icon-square-star                           icon-square-stop                           icon-square-terminal
+  icon-square-user                           icon-square-user-round                     icon-squares-exclude                       icon-squares-intersect
+  icon-squares-subtract                      icon-squares-unite                         icon-squircle                              icon-squircle-dashed
+  icon-squirrel                              icon-stamp                                 icon-star-half                             icon-star-off
+  icon-stars                                 icon-step-back                             icon-step-forward                          icon-stethoscope
+  icon-sticker                               icon-sticky-note                           icon-stone                                 icon-stop-circle
+  icon-store                                 icon-stretch-horizontal                    icon-stretch-vertical                      icon-strikethrough
+  icon-subscript                             icon-subtitles                             icon-sun-dim                               icon-sun-medium
+  icon-sun-moon                              icon-sun-snow                              icon-superscript                           icon-swatch-book
+  icon-swiss-franc                           icon-switch-camera                         icon-sword                                 icon-swords
+  icon-syringe                               icon-table                                 icon-table-2                               icon-table-cells-merge
+  icon-table-cells-split                     icon-table-columns-split                   icon-table-config                          icon-table-of-contents
+  icon-table-properties                      icon-table-rows-split                      icon-tablet-smartphone                     icon-tablets
+  icon-tags                                  icon-tally-1                               icon-tally-2                               icon-tally-3
+  icon-tally-4                               icon-tally-5                               icon-tangent                               icon-telescope
+  icon-tent                                  icon-tent-tree                             icon-terminal-square                       icon-test-tube
+  icon-test-tube-2                           icon-test-tube-diagonal                    icon-test-tubes                            icon-text
+  icon-text-align-center                     icon-text-align-end                        icon-text-align-justify                    icon-text-align-start
+  icon-text-cursor                           icon-text-cursor-input                     icon-text-initial                          icon-text-quote
+  icon-text-search                           icon-text-select                           icon-text-selection                        icon-text-wrap
+  icon-theater                               icon-thermometer-snowflake                 icon-thermometer-sun                       icon-ticket
+  icon-ticket-check                          icon-ticket-minus                          icon-ticket-percent                        icon-ticket-plus
+  icon-ticket-slash                          icon-ticket-x                              icon-tickets                               icon-tickets-plane
+  icon-timer                                 icon-timer-off                             icon-timer-reset                           icon-toilet
+  icon-tool-case                             icon-toolbox                               icon-tornado                               icon-torus
+  icon-touchpad                              icon-touchpad-off                          icon-towel-rack                            icon-tower-control
+  icon-toy-brick                             icon-tractor                               icon-traffic-cone                          icon-train
+  icon-train-front                           icon-train-front-tunnel                    icon-train-track                           icon-tram-front
+  icon-transgender                           icon-tree-deciduous                        icon-tree-palm                             icon-tree-pine
+  icon-trees                                 icon-trello                                icon-trending-up-down                      icon-triangle-dashed
+  icon-triangle-right                        icon-trophy                                icon-truck-electric                        icon-turkish-lira
+  icon-turntable                             icon-turtle                                icon-tv-2                                  icon-tv-minimal
+  icon-tv-minimal-play                       icon-twitch                                icon-type-outline                          icon-umbrella-off
+  icon-undo                                  icon-undo-2                                icon-undo-dot                              icon-unfold-horizontal
+  icon-unfold-vertical                       icon-ungroup                               icon-university                            icon-unlink
+  icon-unlink-2                              icon-unlock-keyhole                        icon-unplug                                icon-usb
+  icon-user-2                                icon-user-check-2                          icon-user-circle                           icon-user-circle-2
+  icon-user-cog                              icon-user-cog-2                            icon-user-key                              icon-user-lock
+  icon-user-minus-2                          icon-user-pen                              icon-user-plus-2                           icon-user-round
+  icon-user-round-check                      icon-user-round-cog                        icon-user-round-key                        icon-user-round-minus
+  icon-user-round-pen                        icon-user-round-plus                       icon-user-round-search                     icon-user-round-x
+  icon-user-search                           icon-user-square                           icon-user-square-2                         icon-user-star
+  icon-user-x-2                              icon-users-2                               icon-users-round                           icon-utensils
+  icon-utensils-crossed                      icon-utility-pole                          icon-van                                   icon-variable
+  icon-vault                                 icon-vector-square                         icon-vegan                                 icon-venetian-mask
+  icon-venus                                 icon-venus-and-mars                        icon-verified                              icon-vibrate
+  icon-vibrate-off                           icon-videotape                             icon-view                                  icon-volleyball
+  icon-volume-off                            icon-vote                                  icon-wallet                                icon-wallet-2
+  icon-wallet-cards                          icon-wallet-minimal                        icon-wallpaper                             icon-wand
+  icon-wand-2                                icon-wand-sparkles                         icon-warehouse                             icon-washing-machine
+  icon-waves                                 icon-waves-arrow-down                      icon-waves-arrow-up                        icon-waves-ladder
+  icon-waypoints                             icon-webcam                                icon-webhook                               icon-webhook-off
+  icon-weight                                icon-weight-tilde                          icon-wheat                                 icon-wheat-off
+  icon-whole-word                            icon-wifi-cog                              icon-wifi-high                             icon-wifi-low
+  icon-wifi-pen                              icon-wifi-sync                             icon-wifi-zero                             icon-wind-arrow-down
+  icon-wine                                  icon-wine-off                              icon-workflow                              icon-worm
+  icon-wrap-text                             icon-wrench                                icon-x-circle                              icon-x-line-top
+  icon-x-octagon                             icon-x-square                              icon-youtube                               icon-zodiac-aquarius
+  icon-zodiac-aries                          icon-zodiac-cancer                         icon-zodiac-capricorn                      icon-zodiac-gemini
+  icon-zodiac-leo                            icon-zodiac-libra                          icon-zodiac-ophiuchus                      icon-zodiac-pisces
+  icon-zodiac-sagittarius                    icon-zodiac-scorpio                        icon-zodiac-taurus                         icon-zodiac-virgo
+
+========================================================================
+E. CATALOGUE COMPLET LUCIDE -- 1951 icônes disponibles (v0.577.0)
+========================================================================
+
+  Syntaxe HTML : <i class="icon-NOM"></i>
+  Syntaxe JSX  : <i class="icon-NOM" />
+  Classe CSS   : .icon-NOM
+
+  icon-a-arrow-down                          icon-a-arrow-up                            icon-a-large-small                         icon-accessibility
+  icon-activity                              icon-activity-square                       icon-air-vent                              icon-airplay
+  icon-alarm-check                           icon-alarm-clock                           icon-alarm-clock-check                     icon-alarm-clock-minus
+  icon-alarm-clock-off                       icon-alarm-clock-plus                      icon-alarm-minus                           icon-alarm-plus
+  icon-alarm-smoke                           icon-album                                 icon-alert-circle                          icon-alert-octagon
+  icon-alert-triangle                        icon-align-center                          icon-align-center-horizontal               icon-align-center-vertical
+  icon-align-end-horizontal                  icon-align-end-vertical                    icon-align-horizontal-distribute-center    icon-align-horizontal-distribute-end
+  icon-align-horizontal-distribute-start     icon-align-horizontal-justify-center       icon-align-horizontal-justify-end          icon-align-horizontal-justify-start
+  icon-align-horizontal-space-around         icon-align-horizontal-space-between        icon-align-justify                         icon-align-left
+  icon-align-right                           icon-align-start-horizontal                icon-align-start-vertical                  icon-align-vertical-distribute-center
+  icon-align-vertical-distribute-end         icon-align-vertical-distribute-start       icon-align-vertical-justify-center         icon-align-vertical-justify-end
+  icon-align-vertical-justify-start          icon-align-vertical-space-around           icon-align-vertical-space-between          icon-ambulance
+  icon-ampersand                             icon-ampersands                            icon-amphora                               icon-anchor
+  icon-angry                                 icon-annoyed                               icon-antenna                               icon-anvil
+  icon-aperture                              icon-app-window                            icon-app-window-mac                        icon-apple
+  icon-archive                               icon-archive-restore                       icon-archive-x                             icon-area-chart
+  icon-armchair                              icon-arrow-big-down                        icon-arrow-big-down-dash                   icon-arrow-big-left
+  icon-arrow-big-left-dash                   icon-arrow-big-right                       icon-arrow-big-right-dash                  icon-arrow-big-up
+  icon-arrow-big-up-dash                     icon-arrow-down                            icon-arrow-down-0-1                        icon-arrow-down-01
+  icon-arrow-down-1-0                        icon-arrow-down-10                         icon-arrow-down-a-z                        icon-arrow-down-az
+  icon-arrow-down-circle                     icon-arrow-down-from-line                  icon-arrow-down-left                       icon-arrow-down-left-from-circle
+  icon-arrow-down-left-from-square           icon-arrow-down-left-square                icon-arrow-down-narrow-wide                icon-arrow-down-right
+  icon-arrow-down-right-from-circle          icon-arrow-down-right-from-square          icon-arrow-down-right-square               icon-arrow-down-square
+  icon-arrow-down-to-dot                     icon-arrow-down-to-line                    icon-arrow-down-up                         icon-arrow-down-wide-narrow
+  icon-arrow-down-z-a                        icon-arrow-down-za                         icon-arrow-left                            icon-arrow-left-circle
+  icon-arrow-left-from-line                  icon-arrow-left-right                      icon-arrow-left-square                     icon-arrow-left-to-line
+  icon-arrow-right                           icon-arrow-right-circle                    icon-arrow-right-from-line                 icon-arrow-right-left
+  icon-arrow-right-square                    icon-arrow-right-to-line                   icon-arrow-up                              icon-arrow-up-0-1
+  icon-arrow-up-01                           icon-arrow-up-1-0                          icon-arrow-up-10                           icon-arrow-up-a-z
+  icon-arrow-up-az                           icon-arrow-up-circle                       icon-arrow-up-down                         icon-arrow-up-from-dot
+  icon-arrow-up-from-line                    icon-arrow-up-left                         icon-arrow-up-left-from-circle             icon-arrow-up-left-from-square
+  icon-arrow-up-left-square                  icon-arrow-up-narrow-wide                  icon-arrow-up-right                        icon-arrow-up-right-from-circle
+  icon-arrow-up-right-from-square            icon-arrow-up-right-square                 icon-arrow-up-square                       icon-arrow-up-to-line
+  icon-arrow-up-wide-narrow                  icon-arrow-up-z-a                          icon-arrow-up-za                           icon-arrows-up-from-line
+  icon-asterisk                              icon-asterisk-square                       icon-at-sign                               icon-atom
+  icon-audio-lines                           icon-audio-waveform                        icon-award                                 icon-axe
+  icon-axis-3-d                              icon-axis-3d                               icon-baby                                  icon-backpack
+  icon-badge                                 icon-badge-alert                           icon-badge-cent                            icon-badge-check
+  icon-badge-dollar-sign                     icon-badge-euro                            icon-badge-help                            icon-badge-indian-rupee
+  icon-badge-info                            icon-badge-japanese-yen                    icon-badge-minus                           icon-badge-percent
+  icon-badge-plus                            icon-badge-pound-sterling                  icon-badge-question-mark                   icon-badge-russian-ruble
+  icon-badge-swiss-franc                     icon-badge-turkish-lira                    icon-badge-x                               icon-baggage-claim
+  icon-balloon                               icon-ban                                   icon-banana                                icon-bandage
+  icon-banknote                              icon-banknote-arrow-down                   icon-banknote-arrow-up                     icon-banknote-x
+  icon-bar-chart                             icon-bar-chart-2                           icon-bar-chart-3                           icon-bar-chart-4
+  icon-bar-chart-big                         icon-bar-chart-horizontal                  icon-bar-chart-horizontal-big              icon-barcode
+  icon-barrel                                icon-baseline                              icon-bath                                  icon-battery
+  icon-battery-charging                      icon-battery-full                          icon-battery-low                           icon-battery-medium
+  icon-battery-plus                          icon-battery-warning                       icon-beaker                                icon-bean
+  icon-bean-off                              icon-bed                                   icon-bed-double                            icon-bed-single
+  icon-beef                                  icon-beer                                  icon-beer-off                              icon-bell
+  icon-bell-dot                              icon-bell-electric                         icon-bell-minus                            icon-bell-off
+  icon-bell-plus                             icon-bell-ring                             icon-between-horizonal-end                 icon-between-horizonal-start
+  icon-between-horizontal-end                icon-between-horizontal-start              icon-between-vertical-end                  icon-between-vertical-start
+  icon-biceps-flexed                         icon-bike                                  icon-binary                                icon-binoculars
+  icon-biohazard                             icon-bird                                  icon-birdhouse                             icon-bitcoin
+  icon-blend                                 icon-blinds                                icon-blocks                                icon-bluetooth
+  icon-bluetooth-connected                   icon-bluetooth-off                         icon-bluetooth-searching                   icon-bold
+  icon-bolt                                  icon-bomb                                  icon-bone                                  icon-book
+  icon-book-a                                icon-book-alert                            icon-book-audio                            icon-book-check
+  icon-book-copy                             icon-book-dashed                           icon-book-down                             icon-book-headphones
+  icon-book-heart                            icon-book-image                            icon-book-key                              icon-book-lock
+  icon-book-marked                           icon-book-minus                            icon-book-open                             icon-book-open-check
+  icon-book-open-text                        icon-book-plus                             icon-book-search                           icon-book-template
+  icon-book-text                             icon-book-type                             icon-book-up                               icon-book-up-2
+  icon-book-user                             icon-book-x                                icon-bookmark                              icon-bookmark-check
+  icon-bookmark-minus                        icon-bookmark-plus                         icon-bookmark-x                            icon-boom-box
+  icon-bot                                   icon-bot-message-square                    icon-bot-off                               icon-bottle-wine
+  icon-bow-arrow                             icon-box                                   icon-box-select                            icon-boxes
+  icon-braces                                icon-brackets                              icon-brain                                 icon-brain-circuit
+  icon-brain-cog                             icon-brick-wall                            icon-brick-wall-fire                       icon-brick-wall-shield
+  icon-briefcase                             icon-briefcase-business                    icon-briefcase-conveyor-belt               icon-briefcase-medical
+  icon-bring-to-front                        icon-brush                                 icon-brush-cleaning                        icon-bubbles
+  icon-bug                                   icon-bug-off                               icon-bug-play                              icon-building
+  icon-building-2                            icon-bus                                   icon-bus-front                             icon-cable
+  icon-cable-car                             icon-cake                                  icon-cake-slice                            icon-calculator
+  icon-calendar                              icon-calendar-1                            icon-calendar-arrow-down                   icon-calendar-arrow-up
+  icon-calendar-check                        icon-calendar-check-2                      icon-calendar-clock                        icon-calendar-cog
+  icon-calendar-days                         icon-calendar-fold                         icon-calendar-heart                        icon-calendar-minus
+  icon-calendar-minus-2                      icon-calendar-off                          icon-calendar-plus                         icon-calendar-plus-2
+  icon-calendar-range                        icon-calendar-search                       icon-calendar-sync                         icon-calendar-x
+  icon-calendar-x-2                          icon-calendars                             icon-camera                                icon-camera-off
+  icon-candlestick-chart                     icon-candy                                 icon-candy-cane                            icon-candy-off
+  icon-cannabis                              icon-cannabis-off                          icon-captions                              icon-captions-off
+  icon-car                                   icon-car-front                             icon-car-taxi-front                        icon-caravan
+  icon-card-sim                              icon-carrot                                icon-case-lower                            icon-case-sensitive
+  icon-case-upper                            icon-cassette-tape                         icon-cast                                  icon-castle
+  icon-cat                                   icon-cctv                                  icon-chart-area                            icon-chart-bar
+  icon-chart-bar-big                         icon-chart-bar-decreasing                  icon-chart-bar-increasing                  icon-chart-bar-stacked
+  icon-chart-candlestick                     icon-chart-column                          icon-chart-column-big                      icon-chart-column-decreasing
+  icon-chart-column-increasing               icon-chart-column-stacked                  icon-chart-gantt                           icon-chart-line
+  icon-chart-network                         icon-chart-no-axes-column                  icon-chart-no-axes-column-decreasing       icon-chart-no-axes-column-increasing
+  icon-chart-no-axes-combined                icon-chart-no-axes-gantt                   icon-chart-pie                             icon-chart-scatter
+  icon-chart-spline                          icon-check                                 icon-check-check                           icon-check-circle
+  icon-check-circle-2                        icon-check-line                            icon-check-square                          icon-check-square-2
+  icon-chef-hat                              icon-cherry                                icon-chess-bishop                          icon-chess-king
+  icon-chess-knight                          icon-chess-pawn                            icon-chess-queen                           icon-chess-rook
+  icon-chevron-down                          icon-chevron-down-circle                   icon-chevron-down-square                   icon-chevron-first
+  icon-chevron-last                          icon-chevron-left                          icon-chevron-left-circle                   icon-chevron-left-square
+  icon-chevron-right                         icon-chevron-right-circle                  icon-chevron-right-square                  icon-chevron-up
+  icon-chevron-up-circle                     icon-chevron-up-square                     icon-chevrons-down                         icon-chevrons-down-up
+  icon-chevrons-left                         icon-chevrons-left-right                   icon-chevrons-left-right-ellipsis          icon-chevrons-right
+  icon-chevrons-right-left                   icon-chevrons-up                           icon-chevrons-up-down                      icon-chrome
+  icon-chromium                              icon-church                                icon-cigarette                             icon-cigarette-off
+  icon-circle                                icon-circle-alert                          icon-circle-arrow-down                     icon-circle-arrow-left
+  icon-circle-arrow-out-down-left            icon-circle-arrow-out-down-right           icon-circle-arrow-out-up-left              icon-circle-arrow-out-up-right
+  icon-circle-arrow-right                    icon-circle-arrow-up                       icon-circle-check                          icon-circle-check-big
+  icon-circle-chevron-down                   icon-circle-chevron-left                   icon-circle-chevron-right                  icon-circle-chevron-up
+  icon-circle-dashed                         icon-circle-divide                         icon-circle-dollar-sign                    icon-circle-dot
+  icon-circle-dot-dashed                     icon-circle-ellipsis                       icon-circle-equal                          icon-circle-fading-arrow-up
+  icon-circle-fading-plus                    icon-circle-gauge                          icon-circle-help                           icon-circle-minus
+  icon-circle-off                            icon-circle-parking                        icon-circle-parking-off                    icon-circle-pause
+  icon-circle-percent                        icon-circle-pile                           icon-circle-play                           icon-circle-plus
+  icon-circle-pound-sterling                 icon-circle-power                          icon-circle-question-mark                  icon-circle-slash
+  icon-circle-slash-2                        icon-circle-slashed                        icon-circle-small                          icon-circle-star
+  icon-circle-stop                           icon-circle-user                           icon-circle-user-round                     icon-circle-x
+  icon-circuit-board                         icon-citrus                                icon-clapperboard                          icon-clipboard
+  icon-clipboard-check                       icon-clipboard-clock                       icon-clipboard-copy                        icon-clipboard-edit
+  icon-clipboard-list                        icon-clipboard-minus                       icon-clipboard-paste                       icon-clipboard-pen
+  icon-clipboard-pen-line                    icon-clipboard-plus                        icon-clipboard-signature                   icon-clipboard-type
+  icon-clipboard-x                           icon-clock                                 icon-clock-1                               icon-clock-10
+  icon-clock-11                              icon-clock-12                              icon-clock-2                               icon-clock-3
+  icon-clock-4                               icon-clock-5                               icon-clock-6                               icon-clock-7
+  icon-clock-8                               icon-clock-9                               icon-clock-alert                           icon-clock-arrow-down
+  icon-clock-arrow-up                        icon-clock-check                           icon-clock-fading                          icon-clock-plus
+  icon-closed-caption                        icon-cloud                                 icon-cloud-alert                           icon-cloud-backup
+  icon-cloud-check                           icon-cloud-cog                             icon-cloud-download                        icon-cloud-drizzle
+  icon-cloud-fog                             icon-cloud-hail                            icon-cloud-lightning                       icon-cloud-moon
+  icon-cloud-moon-rain                       icon-cloud-off                             icon-cloud-rain                            icon-cloud-rain-wind
+  icon-cloud-snow                            icon-cloud-sun                             icon-cloud-sun-rain                        icon-cloud-sync
+  icon-cloud-upload                          icon-cloudy                                icon-clover                                icon-club
+  icon-code                                  icon-code-2                                icon-code-square                           icon-code-xml
+  icon-codepen                               icon-codesandbox                           icon-coffee                                icon-cog
+  icon-coins                                 icon-columns                               icon-columns-2                             icon-columns-3
+  icon-columns-3-cog                         icon-columns-4                             icon-columns-settings                      icon-combine
+  icon-command                               icon-compass                               icon-component                             icon-computer
+  icon-concierge-bell                        icon-cone                                  icon-construction                          icon-contact
+  icon-contact-2                             icon-contact-round                         icon-container                             icon-contrast
+  icon-cookie                                icon-cooking-pot                           icon-copy                                  icon-copy-check
+  icon-copy-minus                            icon-copy-plus                             icon-copy-slash                            icon-copy-x
+  icon-copyleft                              icon-copyright                             icon-corner-down-left                      icon-corner-down-right
+  icon-corner-left-down                      icon-corner-left-up                        icon-corner-right-down                     icon-corner-right-up
+  icon-corner-up-left                        icon-corner-up-right                       icon-cpu                                   icon-creative-commons
+  icon-credit-card                           icon-croissant                             icon-crop                                  icon-cross
+  icon-crosshair                             icon-crown                                 icon-cuboid                                icon-cup-soda
+  icon-curly-braces                          icon-currency                              icon-cylinder                              icon-dam
+  icon-database                              icon-database-backup                       icon-database-search                       icon-database-zap
+  icon-decimals-arrow-left                   icon-decimals-arrow-right                  icon-delete                                icon-dessert
+  icon-diameter                              icon-diamond                               icon-diamond-minus                         icon-diamond-percent
+  icon-diamond-plus                          icon-dice-1                                icon-dice-2                                icon-dice-3
+  icon-dice-4                                icon-dice-5                                icon-dice-6                                icon-dices
+  icon-diff                                  icon-disc                                  icon-disc-2                                icon-disc-3
+  icon-disc-album                            icon-divide                                icon-divide-circle                         icon-divide-square
+  icon-dna                                   icon-dna-off                               icon-dock                                  icon-dog
+  icon-dollar-sign                           icon-donut                                 icon-door-closed                           icon-door-closed-locked
+  icon-door-open                             icon-dot                                   icon-dot-square                            icon-download
+  icon-download-cloud                        icon-drafting-compass                      icon-drama                                 icon-dribbble
+  icon-drill                                 icon-drone                                 icon-droplet                               icon-droplet-off
+  icon-droplets                              icon-drum                                  icon-drumstick                             icon-dumbbell
+  icon-ear                                   icon-ear-off                               icon-earth                                 icon-earth-lock
+  icon-eclipse                               icon-edit                                  icon-edit-2                                icon-edit-3
+  icon-egg                                   icon-egg-fried                             icon-egg-off                               icon-ellipse
+  icon-ellipsis                              icon-ellipsis-vertical                     icon-equal                                 icon-equal-approximately
+  icon-equal-not                             icon-equal-square                          icon-eraser                                icon-ethernet-port
+  icon-euro                                  icon-ev-charger                            icon-expand                                icon-external-link
+  icon-eye                                   icon-eye-closed                            icon-eye-off                               icon-facebook
+  icon-factory                               icon-fan                                   icon-fast-forward                          icon-feather
+  icon-fence                                 icon-ferris-wheel                          icon-figma                                 icon-file
+  icon-file-archive                          icon-file-audio                            icon-file-audio-2                          icon-file-axis-3-d
+  icon-file-axis-3d                          icon-file-badge                            icon-file-badge-2                          icon-file-bar-chart
+  icon-file-bar-chart-2                      icon-file-box                              icon-file-braces                           icon-file-braces-corner
+  icon-file-chart-column                     icon-file-chart-column-increasing          icon-file-chart-line                       icon-file-chart-pie
+  icon-file-check                            icon-file-check-2                          icon-file-check-corner                     icon-file-clock
+  icon-file-code                             icon-file-code-2                           icon-file-code-corner                      icon-file-cog
+  icon-file-cog-2                            icon-file-diff                             icon-file-digit                            icon-file-down
+  icon-file-edit                             icon-file-exclamation-point                icon-file-headphone                        icon-file-heart
+  icon-file-image                            icon-file-input                            icon-file-json                             icon-file-json-2
+  icon-file-key                              icon-file-key-2                            icon-file-line-chart                       icon-file-lock
+  icon-file-lock-2                           icon-file-minus                            icon-file-minus-2                          icon-file-minus-corner
+  icon-file-music                            icon-file-output                           icon-file-pen                              icon-file-pen-line
+  icon-file-pie-chart                        icon-file-play                             icon-file-plus                             icon-file-plus-2
+  icon-file-plus-corner                      icon-file-question                         icon-file-question-mark                    icon-file-scan
+  icon-file-search                           icon-file-search-2                         icon-file-search-corner                    icon-file-signal
+  icon-file-signature                        icon-file-sliders                          icon-file-spreadsheet                      icon-file-stack
+  icon-file-symlink                          icon-file-terminal                         icon-file-text                             icon-file-type
+  icon-file-type-2                           icon-file-type-corner                      icon-file-up                               icon-file-user
+  icon-file-video                            icon-file-video-2                          icon-file-video-camera                     icon-file-volume
+  icon-file-volume-2                         icon-file-warning                          icon-file-x                                icon-file-x-2
+  icon-file-x-corner                         icon-files                                 icon-film                                  icon-filter
+  icon-filter-x                              icon-fingerprint                           icon-fingerprint-pattern                   icon-fire-extinguisher
+  icon-fish                                  icon-fish-off                              icon-fish-symbol                           icon-fishing-hook
+  icon-fishing-rod                           icon-flag                                  icon-flag-off                              icon-flag-triangle-left
+  icon-flag-triangle-right                   icon-flame                                 icon-flame-kindling                        icon-flashlight
+  icon-flashlight-off                        icon-flask-conical                         icon-flask-conical-off                     icon-flask-round
+  icon-flip-horizontal                       icon-flip-horizontal-2                     icon-flip-vertical                         icon-flip-vertical-2
+  icon-flower                                icon-flower-2                              icon-focus                                 icon-fold-horizontal
+  icon-fold-vertical                         icon-folder                                icon-folder-archive                        icon-folder-check
+  icon-folder-clock                          icon-folder-closed                         icon-folder-code                           icon-folder-cog
+  icon-folder-cog-2                          icon-folder-dot                            icon-folder-down                           icon-folder-edit
+  icon-folder-git                            icon-folder-git-2                          icon-folder-heart                          icon-folder-input
+  icon-folder-kanban                         icon-folder-key                            icon-folder-lock                           icon-folder-minus
+  icon-folder-open                           icon-folder-open-dot                       icon-folder-output                         icon-folder-pen
+  icon-folder-plus                           icon-folder-root                           icon-folder-search                         icon-folder-search-2
+  icon-folder-symlink                        icon-folder-sync                           icon-folder-tree                           icon-folder-up
+  icon-folder-x                              icon-folders                               icon-footprints                            icon-fork-knife
+  icon-fork-knife-crossed                    icon-forklift                              icon-form                                  icon-form-input
+  icon-forward                               icon-frame                                 icon-framer                                icon-frown
+  icon-fuel                                  icon-fullscreen                            icon-function-square                       icon-funnel
+  icon-funnel-plus                           icon-funnel-x                              icon-gallery-horizontal                    icon-gallery-horizontal-end
+  icon-gallery-thumbnails                    icon-gallery-vertical                      icon-gallery-vertical-end                  icon-gamepad
+  icon-gamepad-2                             icon-gamepad-directional                   icon-gantt-chart                           icon-gantt-chart-square
+  icon-gauge                                 icon-gauge-circle                          icon-gavel                                 icon-gem
+  icon-georgian-lari                         icon-ghost                                 icon-gift                                  icon-git-branch
+  icon-git-branch-minus                      icon-git-branch-plus                       icon-git-commit                            icon-git-commit-horizontal
+  icon-git-commit-vertical                   icon-git-compare                           icon-git-compare-arrows                    icon-git-fork
+  icon-git-graph                             icon-git-merge                             icon-git-merge-conflict                    icon-git-pull-request
+  icon-git-pull-request-arrow                icon-git-pull-request-closed               icon-git-pull-request-create               icon-git-pull-request-create-arrow
+  icon-git-pull-request-draft                icon-github                                icon-gitlab                                icon-glass-water
+  icon-glasses                               icon-globe                                 icon-globe-2                               icon-globe-lock
+  icon-globe-off                             icon-globe-x                               icon-goal                                  icon-gpu
+  icon-grab                                  icon-graduation-cap                        icon-grape                                 icon-grid
+  icon-grid-2-x-2                            icon-grid-2-x-2-check                      icon-grid-2-x-2-plus                       icon-grid-2-x-2-x
+  icon-grid-2x2                              icon-grid-2x2-check                        icon-grid-2x2-plus                         icon-grid-2x2-x
+  icon-grid-3-x-3                            icon-grid-3x2                              icon-grid-3x3                              icon-grip
+  icon-grip-horizontal                       icon-grip-vertical                         icon-group                                 icon-guitar
+  icon-ham                                   icon-hamburger                             icon-hammer                                icon-hand
+  icon-hand-coins                            icon-hand-fist                             icon-hand-grab                             icon-hand-heart
+  icon-hand-helping                          icon-hand-metal                            icon-hand-platter                          icon-handbag
+  icon-handshake                             icon-hard-drive                            icon-hard-drive-download                   icon-hard-drive-upload
+  icon-hard-hat                              icon-hash                                  icon-hat-glasses                           icon-haze
+  icon-hd                                    icon-hdmi-port                             icon-heading                               icon-heading-1
+  icon-heading-2                             icon-heading-3                             icon-heading-4                             icon-heading-5
+  icon-heading-6                             icon-headphone-off                         icon-headphones                            icon-headset
+  icon-heart                                 icon-heart-crack                           icon-heart-handshake                       icon-heart-minus
+  icon-heart-off                             icon-heart-plus                            icon-heart-pulse                           icon-heater
+  icon-helicopter                            icon-help-circle                           icon-helping-hand                          icon-hexagon
+  icon-highlighter                           icon-history                               icon-home                                  icon-hop
+  icon-hop-off                               icon-hospital                              icon-hotel                                 icon-hourglass
+  icon-house                                 icon-house-heart                           icon-house-plug                            icon-house-plus
+  icon-house-wifi                            icon-ice-cream                             icon-ice-cream-2                           icon-ice-cream-bowl
+  icon-ice-cream-cone                        icon-id-card                               icon-id-card-lanyard                       icon-image
+  icon-image-down                            icon-image-minus                           icon-image-off                             icon-image-play
+  icon-image-plus                            icon-image-up                              icon-image-upscale                         icon-images
+  icon-import                                icon-inbox                                 icon-indent                                icon-indent-decrease
+  icon-indent-increase                       icon-indian-rupee                          icon-infinity                              icon-info
+  icon-inspect                               icon-inspection-panel                      icon-instagram                             icon-italic
+  icon-iteration-ccw                         icon-iteration-cw                          icon-japanese-yen                          icon-joystick
+  icon-kanban                                icon-kanban-square                         icon-kanban-square-dashed                  icon-kayak
+  icon-key                                   icon-key-round                             icon-key-square                            icon-keyboard
+  icon-keyboard-music                        icon-keyboard-off                          icon-lamp                                  icon-lamp-ceiling
+  icon-lamp-desk                             icon-lamp-floor                            icon-lamp-wall-down                        icon-lamp-wall-up
+  icon-land-plot                             icon-landmark                              icon-languages                             icon-laptop
+  icon-laptop-2                              icon-laptop-minimal                        icon-laptop-minimal-check                  icon-lasso
+  icon-lasso-select                          icon-laugh                                 icon-layers                                icon-layers-2
+  icon-layers-3                              icon-layers-plus                           icon-layout                                icon-layout-dashboard
+  icon-layout-grid                           icon-layout-list                           icon-layout-panel-left                     icon-layout-panel-top
+  icon-layout-template                       icon-leaf                                  icon-leafy-green                           icon-lectern
+  icon-lens-concave                          icon-lens-convex                           icon-letter-text                           icon-library
+  icon-library-big                           icon-library-square                        icon-life-buoy                             icon-ligature
+  icon-lightbulb                             icon-lightbulb-off                         icon-line-chart                            icon-line-dot-right-horizontal
+  icon-line-squiggle                         icon-link                                  icon-link-2                                icon-link-2-off
+  icon-linkedin                              icon-list                                  icon-list-check                            icon-list-checks
+  icon-list-chevrons-down-up                 icon-list-chevrons-up-down                 icon-list-collapse                         icon-list-end
+  icon-list-filter                           icon-list-filter-plus                      icon-list-indent-decrease                  icon-list-indent-increase
+  icon-list-minus                            icon-list-music                            icon-list-ordered                          icon-list-plus
+  icon-list-restart                          icon-list-start                            icon-list-todo                             icon-list-tree
+  icon-list-video                            icon-list-x                                icon-loader                                icon-loader-2
+  icon-loader-circle                         icon-loader-pinwheel                       icon-locate                                icon-locate-fixed
+  icon-locate-off                            icon-location-edit                         icon-lock                                  icon-lock-keyhole
+  icon-lock-keyhole-open                     icon-lock-open                             icon-log-in                                icon-log-out
+  icon-logs                                  icon-lollipop                              icon-luggage                               icon-m-square
+  icon-magnet                                icon-mail                                  icon-mail-check                            icon-mail-minus
+  icon-mail-open                             icon-mail-plus                             icon-mail-question                         icon-mail-question-mark
+  icon-mail-search                           icon-mail-warning                          icon-mail-x                                icon-mailbox
+  icon-mails                                 icon-map                                   icon-map-minus                             icon-map-pin
+  icon-map-pin-check                         icon-map-pin-check-inside                  icon-map-pin-house                         icon-map-pin-minus
+  icon-map-pin-minus-inside                  icon-map-pin-off                           icon-map-pin-pen                           icon-map-pin-plus
+  icon-map-pin-plus-inside                   icon-map-pin-x                             icon-map-pin-x-inside                      icon-map-pinned
+  icon-map-plus                              icon-mars                                  icon-mars-stroke                           icon-martini
+  icon-maximize                              icon-maximize-2                            icon-medal                                 icon-megaphone
+  icon-megaphone-off                         icon-meh                                   icon-memory-stick                          icon-menu
+  icon-menu-square                           icon-merge                                 icon-message-circle                        icon-message-circle-check
+  icon-message-circle-code                   icon-message-circle-dashed                 icon-message-circle-heart                  icon-message-circle-more
+  icon-message-circle-off                    icon-message-circle-plus                   icon-message-circle-question               icon-message-circle-question-mark
+  icon-message-circle-reply                  icon-message-circle-warning                icon-message-circle-x                      icon-message-square
+  icon-message-square-check                  icon-message-square-code                   icon-message-square-dashed                 icon-message-square-diff
+  icon-message-square-dot                    icon-message-square-heart                  icon-message-square-lock                   icon-message-square-more
+  icon-message-square-off                    icon-message-square-plus                   icon-message-square-quote                  icon-message-square-reply
+  icon-message-square-share                  icon-message-square-text                   icon-message-square-warning                icon-message-square-x
+  icon-messages-square                       icon-metronome                             icon-mic                                   icon-mic-2
+  icon-mic-off                               icon-mic-vocal                             icon-microchip                             icon-microscope
+  icon-microwave                             icon-milestone                             icon-milk                                  icon-milk-off
+  icon-minimize                              icon-minimize-2                            icon-minus                                 icon-minus-circle
+  icon-minus-square                          icon-mirror-rectangular                    icon-mirror-round                          icon-monitor
+  icon-monitor-check                         icon-monitor-cloud                         icon-monitor-cog                           icon-monitor-dot
+  icon-monitor-down                          icon-monitor-off                           icon-monitor-pause                         icon-monitor-play
+  icon-monitor-smartphone                    icon-monitor-speaker                       icon-monitor-stop                          icon-monitor-up
+  icon-monitor-x                             icon-moon                                  icon-moon-star                             icon-more-horizontal
+  icon-more-vertical                         icon-motorbike                             icon-mountain                              icon-mountain-snow
+  icon-mouse                                 icon-mouse-left                            icon-mouse-off                             icon-mouse-pointer
+  icon-mouse-pointer-2                       icon-mouse-pointer-2-off                   icon-mouse-pointer-ban                     icon-mouse-pointer-click
+  icon-mouse-pointer-square-dashed           icon-mouse-right                           icon-move                                  icon-move-3-d
+  icon-move-3d                               icon-move-diagonal                         icon-move-diagonal-2                       icon-move-down
+  icon-move-down-left                        icon-move-down-right                       icon-move-horizontal                       icon-move-left
+  icon-move-right                            icon-move-up                               icon-move-up-left                          icon-move-up-right
+  icon-move-vertical                         icon-music                                 icon-music-2                               icon-music-3
+  icon-music-4                               icon-navigation                            icon-navigation-2                          icon-navigation-2-off
+  icon-navigation-off                        icon-network                               icon-newspaper                             icon-nfc
+  icon-non-binary                            icon-notebook                              icon-notebook-pen                          icon-notebook-tabs
+  icon-notebook-text                         icon-notepad-text                          icon-notepad-text-dashed                   icon-nut
+  icon-nut-off                               icon-octagon                               icon-octagon-alert                         icon-octagon-minus
+  icon-octagon-pause                         icon-octagon-x                             icon-omega                                 icon-option
+  icon-orbit                                 icon-origami                               icon-outdent                               icon-package
+  icon-package-2                             icon-package-check                         icon-package-minus                         icon-package-open
+  icon-package-plus                          icon-package-search                        icon-package-x                             icon-paint-bucket
+  icon-paint-roller                          icon-paintbrush                            icon-paintbrush-2                          icon-paintbrush-vertical
+  icon-palette                               icon-palmtree                              icon-panda                                 icon-panel-bottom
+  icon-panel-bottom-close                    icon-panel-bottom-dashed                   icon-panel-bottom-inactive                 icon-panel-bottom-open
+  icon-panel-left                            icon-panel-left-close                      icon-panel-left-dashed                     icon-panel-left-inactive
+  icon-panel-left-open                       icon-panel-left-right-dashed               icon-panel-right                           icon-panel-right-close
+  icon-panel-right-dashed                    icon-panel-right-inactive                  icon-panel-right-open                      icon-panel-top
+  icon-panel-top-bottom-dashed               icon-panel-top-close                       icon-panel-top-dashed                      icon-panel-top-inactive
+  icon-panel-top-open                        icon-panels-left-bottom                    icon-panels-left-right                     icon-panels-right-bottom
+  icon-panels-top-bottom                     icon-panels-top-left                       icon-paperclip                             icon-parentheses
+  icon-parking-circle                        icon-parking-circle-off                    icon-parking-meter                         icon-parking-square
+  icon-parking-square-off                    icon-party-popper                          icon-pause                                 icon-pause-circle
+  icon-pause-octagon                         icon-paw-print                             icon-pc-case                               icon-pen
+  icon-pen-box                               icon-pen-line                              icon-pen-off                               icon-pen-square
+  icon-pen-tool                              icon-pencil                                icon-pencil-line                           icon-pencil-off
+  icon-pencil-ruler                          icon-pentagon                              icon-percent                               icon-percent-circle
+  icon-percent-diamond                       icon-percent-square                        icon-person-standing                       icon-philippine-peso
+  icon-phone                                 icon-phone-call                            icon-phone-forwarded                       icon-phone-incoming
+  icon-phone-missed                          icon-phone-off                             icon-phone-outgoing                        icon-pi
+  icon-pi-square                             icon-piano                                 icon-pickaxe                               icon-picture-in-picture
+  icon-picture-in-picture-2                  icon-pie-chart                             icon-piggy-bank                            icon-pilcrow
+  icon-pilcrow-left                          icon-pilcrow-right                         icon-pilcrow-square                        icon-pill
+  icon-pill-bottle                           icon-pin                                   icon-pin-off                               icon-pipette
+  icon-pizza                                 icon-plane                                 icon-plane-landing                         icon-plane-takeoff
+  icon-play                                  icon-play-circle                           icon-play-square                           icon-plug
+  icon-plug-2                                icon-plug-zap                              icon-plug-zap-2                            icon-plus
+  icon-plus-circle                           icon-plus-square                           icon-pocket                                icon-pocket-knife
+  icon-podcast                               icon-pointer                               icon-pointer-off                           icon-popcorn
+  icon-popsicle                              icon-pound-sterling                        icon-power                                 icon-power-circle
+  icon-power-off                             icon-power-square                          icon-presentation                          icon-printer
+  icon-printer-check                         icon-printer-x                             icon-projector                             icon-proportions
+  icon-puzzle                                icon-pyramid                               icon-qr-code                               icon-quote
+  icon-rabbit                                icon-radar                                 icon-radiation                             icon-radical
+  icon-radio                                 icon-radio-receiver                        icon-radio-tower                           icon-radius
+  icon-rail-symbol                           icon-rainbow                               icon-rat                                   icon-ratio
+  icon-receipt                               icon-receipt-cent                          icon-receipt-euro                          icon-receipt-indian-rupee
+  icon-receipt-japanese-yen                  icon-receipt-pound-sterling                icon-receipt-russian-ruble                 icon-receipt-swiss-franc
+  icon-receipt-text                          icon-receipt-turkish-lira                  icon-rectangle-circle                      icon-rectangle-ellipsis
+  icon-rectangle-goggles                     icon-rectangle-horizontal                  icon-rectangle-vertical                    icon-recycle
+  icon-redo                                  icon-redo-2                                icon-redo-dot                              icon-refresh-ccw
+  icon-refresh-ccw-dot                       icon-refresh-cw                            icon-refresh-cw-off                        icon-refrigerator
+  icon-regex                                 icon-remove-formatting                     icon-repeat                                icon-repeat-1
+  icon-repeat-2                              icon-replace                               icon-replace-all                           icon-reply
+  icon-reply-all                             icon-rewind                                icon-ribbon                                icon-rocket
+  icon-rocking-chair                         icon-roller-coaster                        icon-rose                                  icon-rotate-3-d
+  icon-rotate-3d                             icon-rotate-ccw                            icon-rotate-ccw-key                        icon-rotate-ccw-square
+  icon-rotate-cw                             icon-rotate-cw-square                      icon-route                                 icon-route-off
+  icon-router                                icon-rows                                  icon-rows-2                                icon-rows-3
+  icon-rows-4                                icon-rss                                   icon-ruler                                 icon-ruler-dimension-line
+  icon-russian-ruble                         icon-sailboat                              icon-salad                                 icon-sandwich
+  icon-satellite                             icon-satellite-dish                        icon-saudi-riyal                           icon-save
+  icon-save-all                              icon-save-off                              icon-scale                                 icon-scale-3-d
+  icon-scale-3d                              icon-scaling                               icon-scan                                  icon-scan-barcode
+  icon-scan-eye                              icon-scan-face                             icon-scan-heart                            icon-scan-line
+  icon-scan-qr-code                          icon-scan-search                           icon-scan-text                             icon-scatter-chart
+  icon-school                                icon-school-2                              icon-scissors                              icon-scissors-line-dashed
+  icon-scissors-square                       icon-scissors-square-dashed-bottom         icon-scooter                               icon-screen-share
+  icon-screen-share-off                      icon-scroll                                icon-scroll-text                           icon-search
+  icon-search-alert                          icon-search-check                          icon-search-code                           icon-search-slash
+  icon-search-x                              icon-section                               icon-send                                  icon-send-horizonal
+  icon-send-horizontal                       icon-send-to-back                          icon-separator-horizontal                  icon-separator-vertical
+  icon-server                                icon-server-cog                            icon-server-crash                          icon-server-off
+  icon-settings                              icon-settings-2                            icon-shapes                                icon-share
+  icon-share-2                               icon-sheet                                 icon-shell                                 icon-shelving-unit
+  icon-shield                                icon-shield-alert                          icon-shield-ban                            icon-shield-check
+  icon-shield-close                          icon-shield-ellipsis                       icon-shield-half                           icon-shield-minus
+  icon-shield-off                            icon-shield-plus                           icon-shield-question                       icon-shield-question-mark
+  icon-shield-user                           icon-shield-x                              icon-ship                                  icon-ship-wheel
+  icon-shirt                                 icon-shopping-bag                          icon-shopping-basket                       icon-shopping-cart
+  icon-shovel                                icon-shower-head                           icon-shredder                              icon-shrimp
+  icon-shrink                                icon-shrub                                 icon-shuffle                               icon-sidebar
+  icon-sidebar-close                         icon-sidebar-open                          icon-sigma                                 icon-sigma-square
+  icon-signal                                icon-signal-high                           icon-signal-low                            icon-signal-medium
+  icon-signal-zero                           icon-signature                             icon-signpost                              icon-signpost-big
+  icon-siren                                 icon-skip-back                             icon-skip-forward                          icon-skull
+  icon-slack                                 icon-slash                                 icon-slash-square                          icon-slice
+  icon-sliders                               icon-sliders-horizontal                    icon-sliders-vertical                      icon-smartphone
+  icon-smartphone-charging                   icon-smartphone-nfc                        icon-smile                                 icon-smile-plus
+  icon-snail                                 icon-snowflake                             icon-soap-dispenser-droplet                icon-sofa
+  icon-solar-panel                           icon-sort-asc                              icon-sort-desc                             icon-soup
+  icon-space                                 icon-spade                                 icon-sparkle                               icon-sparkles
+  icon-speaker                               icon-speech                                icon-spell-check                           icon-spell-check-2
+  icon-spline                                icon-spline-pointer                        icon-split                                 icon-split-square-horizontal
+  icon-split-square-vertical                 icon-spool                                 icon-spotlight                             icon-spray-can
+  icon-sprout                                icon-square                                icon-square-activity                       icon-square-arrow-down
+  icon-square-arrow-down-left                icon-square-arrow-down-right               icon-square-arrow-left                     icon-square-arrow-out-down-left
+  icon-square-arrow-out-down-right           icon-square-arrow-out-up-left              icon-square-arrow-out-up-right             icon-square-arrow-right
+  icon-square-arrow-right-enter              icon-square-arrow-right-exit               icon-square-arrow-up                       icon-square-arrow-up-left
+  icon-square-arrow-up-right                 icon-square-asterisk                       icon-square-bottom-dashed-scissors         icon-square-centerline-dashed-horizontal
+  icon-square-centerline-dashed-vertical     icon-square-chart-gantt                    icon-square-check                          icon-square-check-big
+  icon-square-chevron-down                   icon-square-chevron-left                   icon-square-chevron-right                  icon-square-chevron-up
+  icon-square-code                           icon-square-dashed                         icon-square-dashed-bottom                  icon-square-dashed-bottom-code
+  icon-square-dashed-kanban                  icon-square-dashed-mouse-pointer           icon-square-dashed-top-solid               icon-square-divide
+  icon-square-dot                            icon-square-equal                          icon-square-function                       icon-square-gantt-chart
+  icon-square-kanban                         icon-square-library                        icon-square-m                              icon-square-menu
+  icon-square-minus                          icon-square-mouse-pointer                  icon-square-parking                        icon-square-parking-off
+  icon-square-pause                          icon-square-pen                            icon-square-percent                        icon-square-pi
+  icon-square-pilcrow                        icon-square-play                           icon-square-plus                           icon-square-power
+  icon-square-radical                        icon-square-round-corner                   icon-square-scissors                       icon-square-sigma
+  icon-square-slash                          icon-square-split-horizontal               icon-square-split-vertical                 icon-square-square
+  icon-square-stack                          icon-square-star                           icon-square-stop                           icon-square-terminal
+  icon-square-user                           icon-square-user-round                     icon-square-x                              icon-squares-exclude
+  icon-squares-intersect                     icon-squares-subtract                      icon-squares-unite                         icon-squircle
+  icon-squircle-dashed                       icon-squirrel                              icon-stamp                                 icon-star
+  icon-star-half                             icon-star-off                              icon-stars                                 icon-step-back
+  icon-step-forward                          icon-stethoscope                           icon-sticker                               icon-sticky-note
+  icon-stone                                 icon-stop-circle                           icon-store                                 icon-stretch-horizontal
+  icon-stretch-vertical                      icon-strikethrough                         icon-subscript                             icon-subtitles
+  icon-sun                                   icon-sun-dim                               icon-sun-medium                            icon-sun-moon
+  icon-sun-snow                              icon-sunrise                               icon-sunset                                icon-superscript
+  icon-swatch-book                           icon-swiss-franc                           icon-switch-camera                         icon-sword
+  icon-swords                                icon-syringe                               icon-table                                 icon-table-2
+  icon-table-cells-merge                     icon-table-cells-split                     icon-table-columns-split                   icon-table-config
+  icon-table-of-contents                     icon-table-properties                      icon-table-rows-split                      icon-tablet
+  icon-tablet-smartphone                     icon-tablets                               icon-tag                                   icon-tags
+  icon-tally-1                               icon-tally-2                               icon-tally-3                               icon-tally-4
+  icon-tally-5                               icon-tangent                               icon-target                                icon-telescope
+  icon-tent                                  icon-tent-tree                             icon-terminal                              icon-terminal-square
+  icon-test-tube                             icon-test-tube-2                           icon-test-tube-diagonal                    icon-test-tubes
+  icon-text                                  icon-text-align-center                     icon-text-align-end                        icon-text-align-justify
+  icon-text-align-start                      icon-text-cursor                           icon-text-cursor-input                     icon-text-initial
+  icon-text-quote                            icon-text-search                           icon-text-select                           icon-text-selection
+  icon-text-wrap                             icon-theater                               icon-thermometer                           icon-thermometer-snowflake
+  icon-thermometer-sun                       icon-thumbs-down                           icon-thumbs-up                             icon-ticket
+  icon-ticket-check                          icon-ticket-minus                          icon-ticket-percent                        icon-ticket-plus
+  icon-ticket-slash                          icon-ticket-x                              icon-tickets                               icon-tickets-plane
+  icon-timer                                 icon-timer-off                             icon-timer-reset                           icon-toggle-left
+  icon-toggle-right                          icon-toilet                                icon-tool-case                             icon-toolbox
+  icon-tornado                               icon-torus                                 icon-touchpad                              icon-touchpad-off
+  icon-towel-rack                            icon-tower-control                         icon-toy-brick                             icon-tractor
+  icon-traffic-cone                          icon-train                                 icon-train-front                           icon-train-front-tunnel
+  icon-train-track                           icon-tram-front                            icon-transgender                           icon-trash
+  icon-trash-2                               icon-tree-deciduous                        icon-tree-palm                             icon-tree-pine
+  icon-trees                                 icon-trello                                icon-trending-down                         icon-trending-up
+  icon-trending-up-down                      icon-triangle                              icon-triangle-alert                        icon-triangle-dashed
+  icon-triangle-right                        icon-trophy                                icon-truck                                 icon-truck-electric
+  icon-turkish-lira                          icon-turntable                             icon-turtle                                icon-tv
+  icon-tv-2                                  icon-tv-minimal                            icon-tv-minimal-play                       icon-twitch
+  icon-twitter                               icon-type                                  icon-type-outline                          icon-umbrella
+  icon-umbrella-off                          icon-underline                             icon-undo                                  icon-undo-2
+  icon-undo-dot                              icon-unfold-horizontal                     icon-unfold-vertical                       icon-ungroup
+  icon-university                            icon-unlink                                icon-unlink-2                              icon-unlock
+  icon-unlock-keyhole                        icon-unplug                                icon-upload                                icon-upload-cloud
+  icon-usb                                   icon-user                                  icon-user-2                                icon-user-check
+  icon-user-check-2                          icon-user-circle                           icon-user-circle-2                         icon-user-cog
+  icon-user-cog-2                            icon-user-key                              icon-user-lock                             icon-user-minus
+  icon-user-minus-2                          icon-user-pen                              icon-user-plus                             icon-user-plus-2
+  icon-user-round                            icon-user-round-check                      icon-user-round-cog                        icon-user-round-key
+  icon-user-round-minus                      icon-user-round-pen                        icon-user-round-plus                       icon-user-round-search
+  icon-user-round-x                          icon-user-search                           icon-user-square                           icon-user-square-2
+  icon-user-star                             icon-user-x                                icon-user-x-2                              icon-users
+  icon-users-2                               icon-users-round                           icon-utensils                              icon-utensils-crossed
+  icon-utility-pole                          icon-van                                   icon-variable                              icon-vault
+  icon-vector-square                         icon-vegan                                 icon-venetian-mask                         icon-venus
+  icon-venus-and-mars                        icon-verified                              icon-vibrate                               icon-vibrate-off
+  icon-video                                 icon-video-off                             icon-videotape                             icon-view
+  icon-voicemail                             icon-volleyball                            icon-volume                                icon-volume-1
+  icon-volume-2                              icon-volume-off                            icon-volume-x                              icon-vote
+  icon-wallet                                icon-wallet-2                              icon-wallet-cards                          icon-wallet-minimal
+  icon-wallpaper                             icon-wand                                  icon-wand-2                                icon-wand-sparkles
+  icon-warehouse                             icon-washing-machine                       icon-watch                                 icon-waves
+  icon-waves-arrow-down                      icon-waves-arrow-up                        icon-waves-ladder                          icon-waypoints
+  icon-webcam                                icon-webhook                               icon-webhook-off                           icon-weight
+  icon-weight-tilde                          icon-wheat                                 icon-wheat-off                             icon-whole-word
+  icon-wifi                                  icon-wifi-cog                              icon-wifi-high                             icon-wifi-low
+  icon-wifi-off                              icon-wifi-pen                              icon-wifi-sync                             icon-wifi-zero
+  icon-wind                                  icon-wind-arrow-down                       icon-wine                                  icon-wine-off
+  icon-workflow                              icon-worm                                  icon-wrap-text                             icon-wrench
+  icon-x                                     icon-x-circle                              icon-x-line-top                            icon-x-octagon
+  icon-x-square                              icon-youtube                               icon-zap                                   icon-zap-off
+  icon-zodiac-aquarius                       icon-zodiac-aries                          icon-zodiac-cancer                         icon-zodiac-capricorn
+  icon-zodiac-gemini                         icon-zodiac-leo                            icon-zodiac-libra                          icon-zodiac-ophiuchus
+  icon-zodiac-pisces                         icon-zodiac-sagittarius                    icon-zodiac-scorpio                        icon-zodiac-taurus
+  icon-zodiac-virgo                          icon-zoom-in                               icon-zoom-out
+
+------------------------------------------------------------------------
+Généré par migrate-theme-optimized.js -- lucide-static@0.577.0
